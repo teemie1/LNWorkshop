@@ -23,4 +23,5 @@ $ sudo mkfs.ext4 /dev/sdc1
 
 ~~~
 $ sudo rsync -a --info=progress2 /media/tee/BLOCKCHAIN/bitcoin /media/tee/BLOCKCHAIN1
+$ rsync -a --info=progress2 --delete ${pathTemplateHDD}/* /mnt/hdd2
 ~~~
