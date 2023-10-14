@@ -1,6 +1,6 @@
 # Install Raspiblitz and Synchronize Bitcoin Blockchain
 
-## Copy Bitcoin Blockchain Data
+## Prepare Bitcoin Blockchain Data
 
 ### Create ext4 Filesystem
 
@@ -17,4 +17,10 @@ $ sudo fdisk /dev/[DISK NAME]
 
 $ sudo mkfs.ext4 /dev/sdc1
 
+~~~
+
+### Copy Blockchain Data
+
+~~~
+$ sudo rsync -a --info=progress2 /media/tee/BLOCKCHAIN/bitcoin /media/tee/BLOCKCHAIN1
 ~~~
