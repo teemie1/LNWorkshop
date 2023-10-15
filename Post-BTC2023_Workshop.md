@@ -34,6 +34,12 @@ $ rsync -a --info=progress2 --delete ${pathTemplateHDD}/* /mnt/hdd2
 
 ### Verify Raspiblitz
 
+#### Check Permission
+~~~
+$ ls -al /home
+$ chmod 755 /home/admin
+~~~
+
 #### Internet Connection
 ~~~
 $ ping 8.8.8.8
