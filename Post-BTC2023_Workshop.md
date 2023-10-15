@@ -61,7 +61,8 @@ $ curl -x socks5h://localhost:9050 -s https://check.torproject.org/api/ip
 {"IsTor":true,"IP":"149.56.22.133"}
 ~~~
 #### Verify Bitcoin Core
-sudo systemctl status bitcoind
+~~~
+$ sudo systemctl status bitcoind
 ● bitcoind.service - Bitcoin daemon on mainnet
      Loaded: loaded (/etc/systemd/system/bitcoind.service; enabled; vendor preset: enabled)
      Active: active (running) since Sun 2023-10-15 05:25:14 UTC; 1min 58s ago
@@ -91,6 +92,23 @@ Proxies: 127.0.0.1:9050 (ipv4, ipv6, onion, cjdns)
 Min tx relay fee rate (BTC/kvB): 0.00001000
 
 Warnings: (none)
+
+$ bitcoin-cli getblockchaininfo
+{
+  "chain": "main",
+  "blocks": 812255,
+  "headers": 812255,
+  "bestblockhash": "00000000000000000002d91f8bc797b28d22a82b5919b637c1b26293b81c1048",
+  "difficulty": 57321508229258.04,
+  "time": 1697347110,
+  "mediantime": 1697345448,
+  "verificationprogress": 0.9999972595489079,
+  "initialblockdownload": false,
+  "chainwork": "000000000000000000000000000000000000000059186bd13ec3fa7bb0557f80",
+  "size_on_disk": 588454820953,
+  "pruned": false,
+  "warnings": ""
+}
 
 $ bitcoin-cli getpeerinfo | grep \"addr\"
     "addr": "127.0.0.1:50632",
@@ -173,6 +191,5 @@ $ bitcoin-cli getnetworkinfo
   ],
   "warnings": ""
 }
-
 
 ~~~
