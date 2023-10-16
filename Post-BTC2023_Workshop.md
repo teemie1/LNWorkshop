@@ -31,6 +31,7 @@ $ rsync -a --info=progress2 --delete ${pathTemplateHDD}/* /mnt/hdd2
 ### Raspberry Pi
 
 ### Intel Base Machine
+link https://teemie1-relay.duckdns.org:8088/raspiblitz-amd64-v1.10.0-2023-10-16-32G-ubuntu.img.gz
 
 ### Verify Raspiblitz
 
