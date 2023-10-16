@@ -5,18 +5,18 @@
 ### Create ext4 Filesystem
 
 ~~~
-$ lsblk
-
-$ sudo fdisk /dev/[DISK NAME]
-# p
-# d
-# w
-
-$ sudo fdisk /dev/[DISK NAME]
-# c
-
-$ sudo mkfs.ext4 /dev/sdc1
-
+# identify the USB connected disk
+lsblk
+df -h
+# select the disk carefully
+disk="/dev/sde"
+# create data partition to the full size of the disk
+$ parted ${disk} --align opt \
+mkpart ext4 1 100%
+# create ext4 filesystem
+sudo mkfs.ext4 -L data ${disk}1
+# mount filesystem
+sudo ${disk}1 /mnt/hdd2
 ~~~
 
 ### Copy Blockchain Data
