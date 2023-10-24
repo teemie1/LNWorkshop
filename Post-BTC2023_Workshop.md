@@ -41,15 +41,41 @@ link https://teemie1-relay.duckdns.org:8088/raspiblitz-amd64-v1.10.0-2023-10-24-
 ### ประกอบเครื่องและบู๊ต Raspiblitz
 
 เมื่อเราคัดลอก Bitcoin Blockchain Data บน SSD สำเร็จและ flash boot device เสร็จเรียบร้อยแล้ว เราจึงนำ SSD และ SD Card (หรือ flashdrive ขึ้นอยู่กับ platform) ประกอบเข้าด้วยกัน เชื่อมต่อสายไฟ สายแลน และต่อจอมอนิเตอร์เพื่อบู๊ตด้วย SD Card (หรือ flashdrive) เมื่อบู๊ตสำเร็จจึงขึ้นจอมอนิเตอร์ดังนี้
+
 <img src="https://github.com/raspiblitz/raspiblitz/raw/v1.10/pictures/lcd0-welcome.png" />
 
+จดหมายเลข IP Address ที่ขึ้นบนหน้าจอ และเปิดโปรแกรมสำหรับ SSH โดยใช้ putty(สามารถดาวน์โหลดได้จาก [link](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html))
 
-#### Check Permission
-~~~
-$ ls -al /home
-$ chmod 755 /home/admin
-~~~
-
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(2).jpg"  width="50%" height="50%"/>
+IP Address ที่แสดงในรูปด้านบนอาจจะไม่ตรงกับเครื่องที่เราติดตั้ง
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(3).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(4).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(5).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(6).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(7).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(8).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(9).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(10).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(11).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(12).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(13).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(14).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(15).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(16).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(17).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(18).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037.jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(1).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(2).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(3).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(4).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(5).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(6).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(7).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(8).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(9).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(10).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(11).jpg"  width="50%" height="50%"/>
 #### Internet Connection
 ~~~
 $ ping 8.8.8.8
