@@ -33,8 +33,7 @@ $ rsync -a --info=progress2 --delete ${pathTemplateHDD}/* /mnt/hdd2
 ### Raspberry Pi
 link [https://raspiblitz.fulmo.org/images/raspiblitz-fat-v1.10.0-2023-09-22.img.gz](https://raspiblitz.fulmo.org/images/raspiblitz-min-v1.10.0-2023-09-22.img.gz)
 ### Intel Base Machine
-link [https://teemie1-relay.duckdns.org:8088/raspiblitz-amd64-v1.10.0-2023-10-24-32G-ubuntu.img.gz]
-(https://teemie1-relay.duckdns.org:8088/raspiblitz-amd64-v1.10.0-2023-10-24-32G-ubuntu.img.gz)
+link [https://teemie1-relay.duckdns.org:8088/raspiblitz-amd64-v1.10.0-2023-10-24-32G-ubuntu.img.gz](https://teemie1-relay.duckdns.org:8088/raspiblitz-amd64-v1.10.0-2023-10-24-32G-ubuntu.img.gz)
 
 ### Verify Raspiblitz
 
