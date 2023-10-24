@@ -76,6 +76,7 @@ IP Address ที่แสดงในรูปด้านบนอาจจะ
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(9).jpg"  width="70%" height="70%"/>
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(10).jpg"  width="70%" height="70%"/>
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(11).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-24%2018%2035%2043.png"  width="70%" height="70%"/>
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2038%20(6).jpg"  width="70%" height="70%"/>
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2038%20(7).jpg"  width="70%" height="70%"/>
 
