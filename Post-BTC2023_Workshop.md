@@ -36,9 +36,13 @@ link https://raspiblitz.fulmo.org/images/raspiblitz-min-v1.10.0-2023-09-22.img.g
 link https://teemie1-relay.duckdns.org:8088/raspiblitz-amd64-v1.10.0-2023-10-24-32G-ubuntu.img.gz
 
 โปรแกรมสำหรับใช้ Flash สามารถใช้ balenaEtcher ซึ่งดาวน์โหลดได้จาก [Link](https://etcher.balena.io/#download-etcher)
-สำหรับ device ที่ใช้สำหรับ flash สำหรับแต่ละ platform จะต่างกัน ถ้าใช้ raspberry pi จะใช้ SD Card ขนาด 32 GB ส่วนถ้าเป็น Intel X86 จำเป็นต้องใช้ Flash Drive ขนาดอย่างน้อย 32 GB ซึ่งขั้นตอนการ flash นั้นเหมือนกันทั้ง 2 platform
+สำหรับ device ที่ใช้สำหรับ flash สำหรับแต่ละ platform จะต่างกัน ถ้าใช้ raspberry pi จะใช้ SD Card ขนาด 32 GB ส่วนถ้าเป็น Intel X86 จำเป็นต้องใช้ flashdrive ขนาดอย่างน้อย 32 GB ซึ่งขั้นตอนการ flash นั้นเหมือนกันทั้ง 2 platform
 
-### Verify Raspiblitz
+### ประกอบเครื่องและบู๊ต Raspiblitz
+
+เมื่อเราคัดลอก Bitcoin Blockchain Data บน SSD สำเร็จและ flash boot device เสร็จเรียบร้อยแล้ว เราจึงนำ SSD และ SD Card (หรือ flashdrive ขึ้นอยู่กับ platform) ประกอบเข้าด้วยกัน เชื่อมต่อสายไฟ สายแลน และต่อจอมอนิเตอร์เพื่อบู๊ตด้วย SD Card (หรือ flashdrive) เมื่อบู๊ตสำเร็จจึงขึ้นจอมอนิเตอร์ดังนี้
+
+https://github.com/raspiblitz/raspiblitz/raw/v1.10/pictures/lcd0-welcome.png
 
 #### Check Permission
 ~~~
