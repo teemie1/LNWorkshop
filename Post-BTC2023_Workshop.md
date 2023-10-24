@@ -48,34 +48,37 @@ link https://teemie1-relay.duckdns.org:8088/raspiblitz-amd64-v1.10.0-2023-10-24-
 
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(2).jpg"  width="50%" height="50%"/>
 IP Address ที่แสดงในรูปด้านบนอาจจะไม่ตรงกับเครื่องที่เราติดตั้ง
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(3).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(4).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(5).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(6).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(7).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(8).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(9).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(10).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(11).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(12).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(13).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(14).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(15).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(16).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(17).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(18).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037.jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(1).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(2).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(3).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(4).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(5).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(6).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(7).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(8).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(9).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(10).jpg"  width="50%" height="50%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(11).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(3).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(4).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(5).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(6).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(7).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(8).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(9).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(10).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(11).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(12).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(13).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(14).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(15).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(16).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(17).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(18).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037.jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(1).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(2).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(3).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(4).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(5).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(6).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(7).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(8).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(9).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(10).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(11).jpg"  width="70%" height="70%"/>
+
+
+
 #### Internet Connection
 ~~~
 $ ping 8.8.8.8
