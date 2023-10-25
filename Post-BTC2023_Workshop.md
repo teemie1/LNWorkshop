@@ -43,14 +43,14 @@ $ rsync -a --info=progress2 --delete ${pathTemplateHDD}/* /mnt/hdd2
 การสร้าง Raspiblitz จำเป็นต้อง Flash Boot Device สามารถดาวน์โหลดไฟล์ image สำหรับเครื่องของเรา แยกเป็น 2 ประเภทคือ Raspberry Pi และ Intel X86 ได้ดังนี้
 
 ### Raspberry Pi
- flash image: [download](https://raspiblitz.fulmo.org/images/raspiblitz-min-v1.10.0-2023-09-22.img.gz) 
- flash device: 32GB SD Card
+  - flash image: [download](https://raspiblitz.fulmo.org/images/raspiblitz-min-v1.10.0-2023-09-22.img.gz) 
+  - flash device: 32GB SD Card
 
 ### Intel X86 Base Machine
- flash image: [download](https://teemie1-relay.duckdns.org:8088/raspiblitz-amd64-v1.10.0-2023-10-24-32G-ubuntu.img.gz)
- flash device: 32GB flashdrive
+  - flash image: [download](https://teemie1-relay.duckdns.org:8088/raspiblitz-amd64-v1.10.0-2023-10-24-32G-ubuntu.img.gz)
+  - flash device: 32GB flashdrive
 
- จำเป็นต้องใช้โปรแกรม balenaEtcher ในการแฟลช ซึ่งดาวน์โหลดได้จาก [blenaEtcher](https://etcher.balena.io/#download-etcher)
+จำเป็นต้องใช้โปรแกรม balenaEtcher ในการแฟลช ซึ่งดาวน์โหลดได้จาก [blenaEtcher](https://etcher.balena.io/#download-etcher)
 
 ### ประกอบเครื่องและบู๊ต Raspiblitz
 
