@@ -89,20 +89,32 @@ $ rsync -a --info=progress2 --delete ${pathTemplateHDD}/* /mnt/hdd2
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(18).jpg"  width="70%" height="70%"/>
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037.jpg"  width="70%" height="70%"/>
 
-  - d
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(1).jpg"  width="70%" height="70%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(2).jpg"  width="70%" height="70%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(3).jpg"  width="70%" height="70%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(4).jpg"  width="70%" height="70%"/>
+  - รอให้ Raspiblitz ทำการ setup ทั้งหมดจนเสร็จ
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(5).jpg"  width="70%" height="70%"/>
+
+  - เมื่อแสดงค่า seed ของ LND ให้จด seed ทั้ง 24 คำไว้บนกระดาษ ห้าม copy เก็บไว้บนคอมพิวเตอร์เพื่อความปลอดภัย
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(6).jpg"  width="70%" height="70%"/>
+
+  - เลือก "CONTINUE" --> "OK" เสร็จแล้วระบบจำทำการ reboot เครื่อง
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(7).jpg"  width="70%" height="70%"/>
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(8).jpg"  width="70%" height="70%"/>
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(9).jpg"  width="70%" height="70%"/>
+
+  - หลังจาก reboot เสร็จแล้วให้เชื่อมต่อ putty อีกครั้ง โดยเลือกที่เมนู "Restart Session"
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(10).jpg"  width="70%" height="70%"/>
+
+ - ใส่ username และ password
+   - Username : admin
+   - Password : raspiblitz
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(11).jpg"  width="70%" height="70%"/>
+
+  - ใส่ Password C ที่ได้ตั้งค่าไว้
 <img src="Post-BTC2023_Workshop/2023-10-24%2018%2035%2043.png"  width="70%" height="70%"/>
+
+  - เลือกเมนู "INFO"
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2038%20(6).jpg"  width="70%" height="70%"/>
+
+  - เมื่อติดตั้งระบบ Raspiblitz สำเร็จและพร้อมใช้งานจะปรากฏภาพดังนี้
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2038%20(7).jpg"  width="70%" height="70%"/>
 
 #### Internet Connection
