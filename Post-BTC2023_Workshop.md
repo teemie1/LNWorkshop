@@ -52,7 +52,7 @@ $ rsync -a --info=progress2 --delete ${pathTemplateHDD}/* /mnt/hdd2
 
 จำเป็นต้องใช้โปรแกรม balenaEtcher ในการแฟลช ซึ่งดาวน์โหลดได้จาก [blenaEtcher](https://etcher.balena.io/#download-etcher)
 
-### ประกอบเครื่องและบู๊ต Raspiblitz
+## 3. ประกอบเครื่องและบู๊ต Raspiblitz
 
   - เมื่อเราคัดลอก Bitcoin Blockchain Data บน SSD สำเร็จและ flash boot device เสร็จเรียบร้อยแล้ว เราจึงนำ SSD และ SD Card (หรือ flashdrive) ประกอบเข้าด้วยกัน เชื่อมต่อสายไฟ สายแลน และต่อจอมอนิเตอร์เพื่อบู๊ตด้วย SD Card (หรือ flashdrive) เมื่อบู๊ตสำเร็จจึงขึ้นจอมอนิเตอร์ดังนี้
 <img src="https://github.com/raspiblitz/raspiblitz/raw/v1.10/pictures/lcd0-welcome.png" />
@@ -117,7 +117,9 @@ $ rsync -a --info=progress2 --delete ${pathTemplateHDD}/* /mnt/hdd2
   - เมื่อติดตั้งระบบ Raspiblitz สำเร็จและพร้อมใช้งานจะปรากฏภาพดังนี้
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2038%20(7).jpg"  width="70%" height="70%"/>
 
-#### Internet Connection
+## 4. เช็คความพร้อมของ Raspiblitz
+
+### Internet Connection
 ~~~
 $ ping 8.8.8.8
 $ ping google.com
@@ -128,7 +130,7 @@ nameserver 8.8.4.4
 
 ~~~
 
-#### Verify Tor Network
+### Verify Tor Network
 ~~~
 $ sudo systemctl status tor
 ● tor.service - Anonymizing overlay network for TCP (multi-instance-master)
@@ -143,7 +145,7 @@ Oct 15 04:48:35 raspiblitz systemd[1]: Finished Anonymizing overlay network for 
 $ curl -x socks5h://localhost:9050 -s https://check.torproject.org/api/ip
 {"IsTor":true,"IP":"149.56.22.133"}
 ~~~
-#### Verify Bitcoin Core
+### Verify Bitcoin Core
 ~~~
 $ sudo systemctl status bitcoind
 ● bitcoind.service - Bitcoin daemon on mainnet
