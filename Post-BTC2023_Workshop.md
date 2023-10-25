@@ -64,9 +64,13 @@ $ rsync -a --info=progress2 --delete ${pathTemplateHDD}/* /mnt/hdd2
     - Username : admin
     - Password : raspiblitz
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(3).jpg"  width="70%" height="70%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(4).jpg"  width="70%" height="70%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(5).jpg"  width="70%" height="70%"/>
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(6).jpg"  width="70%" height="70%"/>
+
+  - เลือกเมนู "FRESHSETUP" --> "USE BLOCKCHAIN" --> "DELETE DATA" --> ""
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(4).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(5).jpg"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(6).jpg"  width="50%" height="50%"/>
+
+
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(7).jpg"  width="70%" height="70%"/>
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(8).jpg"  width="70%" height="70%"/>
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2036%20(9).jpg"  width="70%" height="70%"/>
