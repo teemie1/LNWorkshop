@@ -37,7 +37,7 @@ $ sudo ${disk}1 /media/tee/BLOCKCHAIN2
 # copy blockchain data
 $ sudo rsync -a --info=progress2 /media/tee/BLOCKCHAIN/* /media/tee/BLOCKCHAIN1
 $ rsync -a --info=progress2 --delete ${pathTemplateHDD}/* /mnt/hdd2
-
+~~~
 ## 2. สร้าง SD Card หรือ Flash Drive สำหรับบู๊ต Raspiblitz
 
 การสร้าง Raspiblitz จำเป็นต้อง Flash Boot Device สามารถดาวน์โหลดไฟล์ image สำหรับเครื่องของเรา แยกเป็น 2 ประเภทคือ Raspberry Pi และ Intel X86 ได้ดังนี้
