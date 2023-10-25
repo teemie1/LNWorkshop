@@ -7,7 +7,12 @@ https://github.com/teemie1/LNWorkshop/blob/main/Post-BTC2023_Workshop.md
 สามารถเข้าสู่หน้าเว็บนี้โดยการสแกนที่ QR Code ด้านบน
 
 ## 1. เตรียมข้อมูล Bitcoin Blockchain โดยการคัดลอกจาก Copy Station (จัดการโดยผู้สอน)
-ข้อมูลของ Bitcoin Blockchain มีขนาดประมาณ 550 GB ซึ่งใช้เวลา sync ถึง 1-3 วัน จึงใช้วิธีคัดลอกจาก Copy Station ที่เตรียมไว้ จะลดระยะ
+ข้อมูลของ Bitcoin Blockchain มีขนาดประมาณ 550 GB ซึ่งใช้เวลา sync ถึง 1-3 วัน เพื่อลดเวลาลงจึงใช้วิธีคัดลอกจาก Copy Station ที่เตรียมไว้ล่วงหน้า จะลดเวลาลงเหลือประมาณ 0.5-1.5 ชั่วโมงเท่านั้น
+
+ใน workshop มีเตรียม Copy Station ไว้ 2 ชุด ดังนี้
+
+### Raspiblitz Node
+นำ
 
 ### Create ext4 Filesystem
 
