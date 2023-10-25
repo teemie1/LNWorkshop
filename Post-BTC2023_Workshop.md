@@ -15,7 +15,7 @@ https://github.com/teemie1/LNWorkshop/blob/main/Post-BTC2023_Workshop.md
 นำ SSD ขนาด 1-2 TB มาเชื่อมต่อ USB กับ Raspiblitz Node และใช้คำสั่งสำหรับคัดลอกข้อมูลดังนี้
 ~~~
 # From Raspiblitz Menu, select Exit to command line
-$ sudo /home/admin/XXcopyStation.sh
+₿ sudo /home/admin/XXcopyStation.sh
 
 # Wait for copy blockchain data.
 ~~~
@@ -123,10 +123,10 @@ $ rsync -a --info=progress2 --delete ${pathTemplateHDD}/* /mnt/hdd2
 ### เช็ค Internet Connection
 ออกจากหน้าจอ Raspiblitz ด้วยกดปุ่ม 'x' และเลือกเมนู "Exit" จะเข้าสู่ command line
 ~~~
-$ ping 8.8.8.8
-$ ping google.com
-$ nslookup google.com
-$ cat /etc/resolv.conf
+₿ ping 8.8.8.8
+₿ ping google.com
+₿ nslookup google.com
+₿ cat /etc/resolv.conf
 nameserver 8.8.8.8
 nameserver 8.8.4.4
 
@@ -134,29 +134,30 @@ nameserver 8.8.4.4
 
 ### เช็คการเชื่อมต่อ Tor Network
 ~~~
-$ sudo systemctl status tor
+₿ sudo systemctl status tor
 
-$ curl -x socks5h://localhost:9050 -s https://check.torproject.org/api/ip
+₿ curl -x socks5h://localhost:9050 -s https://check.torproject.org/api/ip
 {"IsTor":true,"IP":"149.56.22.133"}
 ~~~
 ### เช็ค Bitcoin Core
 ~~~
-$ sudo systemctl status bitcoind
+₿ sudo systemctl status bitcoind
 
-$ bitcoin-cli -getinfo
+₿ bitcoin-cli -getinfo
 Chain: main
-Blocks: 812255
-Headers: 812255
-Verification progress: 100%
-Difficulty: 57321508229258.04
+Blocks: 813759
+Headers: 813759
+Verification progress: 99.9999%
+Difficulty: 61030681983175.59
+
 
 ~~~
 
 ### เช็ค LND
 ~~~
-$ lncli getinfo
+₿ lncli getinfo
 
-$ lncli newaddress p2wkh
+₿ lncli newaddress p2wkh
 
 ~~~
 
