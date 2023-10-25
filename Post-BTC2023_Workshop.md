@@ -1,6 +1,9 @@
 # ขั้นตอนการติดตั้ง Raspiblitz และใช้งาน Bitcoin Core
+<img src="Post-BTC2023_Workshop/Post-BTC2023_Workshop_QR.png"  width="50%" height="50%"/>
+https://github.com/teemie1/LNWorkshop/blob/main/Post-BTC2023_Workshop.md
 
-https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4/edit?usp=sharing
+
+สามารถเข้าสู่หน้าเว็บนี้โดยการสแกนที่ QR Code ด้านบน
 
 ## เตรียมข้อมูล Bitcoin Blockchain
 
@@ -141,103 +144,5 @@ Min tx relay fee rate (BTC/kvB): 0.00001000
 
 Warnings: (none)
 
-$ bitcoin-cli getblockchaininfo
-{
-  "chain": "main",
-  "blocks": 812255,
-  "headers": 812255,
-  "bestblockhash": "00000000000000000002d91f8bc797b28d22a82b5919b637c1b26293b81c1048",
-  "difficulty": 57321508229258.04,
-  "time": 1697347110,
-  "mediantime": 1697345448,
-  "verificationprogress": 0.9999972595489079,
-  "initialblockdownload": false,
-  "chainwork": "000000000000000000000000000000000000000059186bd13ec3fa7bb0557f80",
-  "size_on_disk": 588454820953,
-  "pruned": false,
-  "warnings": ""
-}
-
-$ bitcoin-cli getpeerinfo | grep \"addr\"
-    "addr": "127.0.0.1:50632",
-    "addr": "3dlf22xklplcrmwu7mwajukqemfu7jew75zysguei3g5cdmhppb2idid.onion:8333",
-    "addr": "jqg3wpmlsp2hdatpl3makym7b2ffs6p5se3z6quw55meeduarwrgatad.onion:8333",
-    "addr": "5g72ppm3krkorsfopcm2bi7wlv4ohhs4u4mlseymasn7g7zhdcyjpfid.onion:8333",
-    "addr": "vheyznheu4wc3wwnrgx4wmwui6yyvjnl3q7cx3lzxfcoj5yyizkywwad.onion:8333",
-    "addr": "6saadjlcre5bf2ajzsedxgiqyiughbk7vthqbbn37srhxgxslcnzovyd.onion:8333",
-    "addr": "127.0.0.1:55136",
-    "addr": "yv7ainbyxz6wejjhpjgzx6ghcomdwd3k7fclru4woooxcovyjwrp7dqd.onion:8333",
-    "addr": "fgoaw2osm2jpxxxtudf7c43ar7jna6cgqlm7txyr2oen67c37doxe2id.onion:8333",
-    "addr": "nigkr23k4xdsmqtoepgepvnmh33b6wnw2zsrbdu7r7unjvrv36wrcjqd.onion:8333",
-    "addr": "ck5kmfvxcmuqfs3ful5pvssz467a6dgpmxbj6bylrzzyup6mutwsrnad.onion:8333",
-    "addr": "jnrmetwubjv3zaz76nimxtladgirgrqjvxfjfpxz63dsymhm6nbh5tad.onion:8333",
-    "addr": "d7hj5zeyqqyhc5fm5rfedwk5qmxivd276xoqkvrsnvvxnobtyrtm5iyd.onion:8333",
-
-$ bitcoin-cli getnetworkinfo
-{
-  "version": 250000,
-  "subversion": "/Satoshi:25.0.0/",
-  "protocolversion": 70016,
-  "localservices": "000000000000040d",
-  "localservicesnames": [
-    "NETWORK",
-    "BLOOM",
-    "WITNESS",
-    "NETWORK_LIMITED"
-  ],
-  "localrelay": true,
-  "timeoffset": 0,
-  "networkactive": true,
-  "connections": 12,
-  "connections_in": 2,
-  "connections_out": 10,
-  "networks": [
-    {
-      "name": "ipv4",
-      "limited": true,
-      "reachable": false,
-      "proxy": "127.0.0.1:9050",
-      "proxy_randomize_credentials": true
-    },
-    {
-      "name": "ipv6",
-      "limited": true,
-      "reachable": false,
-      "proxy": "127.0.0.1:9050",
-      "proxy_randomize_credentials": true
-    },
-    {
-      "name": "onion",
-      "limited": false,
-      "reachable": true,
-      "proxy": "127.0.0.1:9050",
-      "proxy_randomize_credentials": true
-    },
-    {
-      "name": "i2p",
-      "limited": true,
-      "reachable": false,
-      "proxy": "",
-      "proxy_randomize_credentials": false
-    },
-    {
-      "name": "cjdns",
-      "limited": true,
-      "reachable": false,
-      "proxy": "127.0.0.1:9050",
-      "proxy_randomize_credentials": true
-    }
-  ],
-  "relayfee": 0.00001000,
-  "incrementalfee": 0.00001000,
-  "localaddresses": [
-    {
-      "address": "rr7jonkwzi7opwrytefpz2qfopsabd2lgsoskmrjzairfmhhr5rxquid.onion",
-      "port": 8333,
-      "score": 4
-    }
-  ],
-  "warnings": ""
-}
-
 ~~~
+https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4/edit?usp=sharing
