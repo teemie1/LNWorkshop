@@ -95,7 +95,7 @@ $ rsync -a --info=progress2 --delete ${pathTemplateHDD}/* /mnt/hdd2
   - เมื่อแสดงค่า seed ของ LND ให้จด seed ทั้ง 24 คำไว้บนกระดาษ ห้าม copy เก็บไว้บนคอมพิวเตอร์เพื่อความปลอดภัย
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(6).jpg"  width="70%" height="70%"/>
 
-  - เลือก "CONTINUE" --> "OK" เสร็จแล้วระบบจำทำการ reboot เครื่อง
+  - เลือก "CONTINUE" --> "OK" เสร็จแล้วระบบจะทำการ reboot
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(7).jpg"  width="70%" height="70%"/>
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(8).jpg"  width="70%" height="70%"/>
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2037%20(9).jpg"  width="70%" height="70%"/>
