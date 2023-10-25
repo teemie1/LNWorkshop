@@ -1,5 +1,7 @@
 # ขั้นตอนการติดตั้ง Raspiblitz และใช้งาน Bitcoin Core
 
+https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4/edit?usp=sharing
+
 ## เตรียมข้อมูล Bitcoin Blockchain
 
 ### Create ext4 Filesystem
