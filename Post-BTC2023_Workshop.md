@@ -118,8 +118,10 @@ $ rsync -a --info=progress2 --delete ${pathTemplateHDD}/* /mnt/hdd2
 <img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2038%20(7).jpg"  width="70%" height="70%"/>
 
 ## 4. เช็คความพร้อมของ Raspiblitz
+หลังจากติดตั้ง Raspiblitz เสร็จเรียบร้อยแล้ว ควรที่จะทำการตรวจเช็คว่า node สามารถใช้งานได้เป็นปกติหรือไม่ดังนี้
 
-### Internet Connection
+### เช็ค Internet Connection
+ออกจากหน้าจอ Raspiblitz ด้วยกดปุ่ม 'x' และเลือกเมนู "Exit" จะเข้าสู่ command line
 ~~~
 $ ping 8.8.8.8
 $ ping google.com
@@ -130,53 +132,33 @@ nameserver 8.8.4.4
 
 ~~~
 
-### Verify Tor Network
+### เช็คการเชื่อมต่อ Tor Network
 ~~~
 $ sudo systemctl status tor
-● tor.service - Anonymizing overlay network for TCP (multi-instance-master)
-     Loaded: loaded (/lib/systemd/system/tor.service; enabled; vendor preset: enabled)
-     Active: active (exited) since Sun 2023-10-15 04:48:35 UTC; 37min ago
-   Main PID: 802 (code=exited, status=0/SUCCESS)
-        CPU: 1ms
-
-Oct 15 04:48:35 raspiblitz systemd[1]: Starting Anonymizing overlay network for TCP (multi-instance-master)...
-Oct 15 04:48:35 raspiblitz systemd[1]: Finished Anonymizing overlay network for TCP (multi-instance-master).
 
 $ curl -x socks5h://localhost:9050 -s https://check.torproject.org/api/ip
 {"IsTor":true,"IP":"149.56.22.133"}
 ~~~
-### Verify Bitcoin Core
+### เช็ค Bitcoin Core
 ~~~
 $ sudo systemctl status bitcoind
-● bitcoind.service - Bitcoin daemon on mainnet
-     Loaded: loaded (/etc/systemd/system/bitcoind.service; enabled; vendor preset: enabled)
-     Active: active (running) since Sun 2023-10-15 05:25:14 UTC; 1min 58s ago
-    Process: 312259 ExecStartPre=/home/admin/config.scripts/bitcoin.check.sh prestart mainnet (code=exited, status=0/SUCCESS)
-    Process: 312270 ExecStart=/usr/local/bin/bitcoind -daemonwait -conf=/mnt/hdd/bitcoin/bitcoin.conf -datadir=/mnt/hdd/bitcoin (code=exited, status=0/SUCCESS)
-   Main PID: 312271 (bitcoind)
-      Tasks: 18 (limit: 9081)
-     Memory: 5.8G
-        CPU: 2min 17.607s
-     CGroup: /system.slice/bitcoind.service
-             └─312271 /usr/local/bin/bitcoind -daemonwait -conf=/mnt/hdd/bitcoin/bitcoin.conf -datadir=/mnt/hdd/bitcoin
-
-Oct 15 05:25:07 raspiblitz systemd[1]: Starting Bitcoin daemon on mainnet...
-Oct 15 05:25:14 raspiblitz systemd[1]: Started Bitcoin daemon on mainnet.
 
 $ bitcoin-cli -getinfo
 Chain: main
 Blocks: 812255
 Headers: 812255
-Verification progress: 99.9998%
+Verification progress: 100%
 Difficulty: 57321508229258.04
 
-Network: in 2, out 11, total 13
-Version: 250000
-Time offset (s): 0
-Proxies: 127.0.0.1:9050 (ipv4, ipv6, onion, cjdns)
-Min tx relay fee rate (BTC/kvB): 0.00001000
+~~~
 
-Warnings: (none)
+### เช็ค LND
+~~~
+$ lncli getinfo
+
+$ lncli newaddress p2wkh
 
 ~~~
+
+เมื่อเช็คการทำงานของ Raspiblitz เป็นปกติทุกอย่าง ให้ใส่ข้อมูล node ของเราใน google sheet ด้านล่างเรียงตามลำดับกลุ่ม
 https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4/edit?usp=sharing
