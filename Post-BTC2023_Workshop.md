@@ -12,33 +12,33 @@ https://github.com/teemie1/LNWorkshop/blob/main/Post-BTC2023_Workshop.md
 ใน workshop มีเตรียม Copy Station ไว้ 2 ชุด ดังนี้
 
 ### Raspiblitz Node
-นำ
-
-### Create ext4 Filesystem
-
+นำ SSD ขนาด 1-2 TB มาเชื่อมต่อ USB กับ Raspiblitz Node และใช้คำสั่งสำหรับคัดลอกข้อมูลดังนี้
 ~~~
-# identify the USB connected disk
-lsblk
-df -h
-# select the disk carefully
-disk="/dev/sde"
+# From Raspiblitz Menu, select Exit to command line
+$ sudo /home/admin/XXcopyStation.sh
+
+# Wait for copy blockchain data.
+~~~
+
+### Thinkpad Labtop
+นำ SSD ขนาด 1-2 TB มาเชื่อมต่อ USB กับ Thinkpad และใช้คำสั่งคัดลอกดังนี้
+~~~
+# Open terminal windows, identify the USB connected disk
+$ lsblk
+$ disk="/dev/sdX"
+
 # create data partition to the full size of the disk
-$ parted ${disk} --align opt \
-mkpart ext4 1 100%
+$ parted ${disk} --align opt mkpart ext4 1 100%
+
 # create ext4 filesystem
-sudo mkfs.ext4 -L data ${disk}1
-# mount filesystem
-sudo ${disk}1 /mnt/hdd2
-~~~
+$ sudo mkfs.ext4 -L data ${disk}1
+$ sudo ${disk}1 /media/tee/BLOCKCHAIN2
 
-### Copy Blockchain Data
-
-~~~
-$ sudo rsync -a --info=progress2 /media/tee/BLOCKCHAIN/bitcoin /media/tee/BLOCKCHAIN1
+# copy blockchain data
+$ sudo rsync -a --info=progress2 /media/tee/BLOCKCHAIN/* /media/tee/BLOCKCHAIN1
 $ rsync -a --info=progress2 --delete ${pathTemplateHDD}/* /mnt/hdd2
-~~~
 
-## สร้าง SD Card หรือ Flash Drive สำหรับบู๊ต Raspiblitz
+## 2. สร้าง SD Card หรือ Flash Drive สำหรับบู๊ต Raspiblitz
 
 การสร้าง Raspiblitz จำเป็นต้อง Flash Boot Device สามารถดาวน์โหลดไฟล์ image สำหรับเครื่องของเรา แยกเป็น 2 ประเภทคือ Raspberry Pi และ Intel X86 ได้ดังนี้
 
