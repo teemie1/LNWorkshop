@@ -1,5 +1,5 @@
 # ขั้นตอนการติดตั้ง Raspiblitz และใช้งาน Bitcoin Core
-<img src="Post-BTC2023_Workshop/Post-BTC2023_Workshop_QR.png"  width="50%" height="50%"/>
+<img src="Post-BTC2023_Workshop/Post-BTC2023_Workshop_QR.png"  width="40%" height="40%"/>
 https://github.com/teemie1/LNWorkshop/blob/main/Post-BTC2023_Workshop.md
 
 
