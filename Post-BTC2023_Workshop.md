@@ -37,8 +37,7 @@ $ sudo mount ${disk}1 /media/tee/BLOCKCHAIN2
 
 # copy blockchain data
 $ sudo rsync -a --info=progress2 /media/tee/BLOCKCHAIN/bitcoin /media/tee/BLOCKCHAIN2
-
-#$ rsync -a --info=progress2 --delete ${pathTemplateHDD}/* /mnt/hdd2
+$ sudo umount ${disk}1
 ~~~
 ## 2. สร้าง SD Card หรือ Flash Drive สำหรับบู๊ต Raspiblitz
 
