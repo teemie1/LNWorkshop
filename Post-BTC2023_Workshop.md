@@ -28,15 +28,17 @@ $ lsblk
 $ disk="/dev/sdX"
 
 # create data partition to the full size of the disk
+$ sudo sfdisk --delete ${disk}
 $ sudo parted ${disk} --align opt mkpart ext4 1 100%
 
 # create ext4 filesystem
 $ sudo mkfs.ext4 -L data ${disk}1
-$ sudo ${disk}1 /media/tee/BLOCKCHAIN2
+$ sudo mount ${disk}1 /media/tee/BLOCKCHAIN2
 
 # copy blockchain data
-$ sudo rsync -a --info=progress2 /media/tee/BLOCKCHAIN/* /media/tee/BLOCKCHAIN2
-$ rsync -a --info=progress2 --delete ${pathTemplateHDD}/* /mnt/hdd2
+$ sudo rsync -a --info=progress2 /media/tee/BLOCKCHAIN/bitcoin /media/tee/BLOCKCHAIN2
+
+#$ rsync -a --info=progress2 --delete ${pathTemplateHDD}/* /mnt/hdd2
 ~~~
 ## 2. สร้าง SD Card หรือ Flash Drive สำหรับบู๊ต Raspiblitz
 
