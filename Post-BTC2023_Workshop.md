@@ -164,3 +164,16 @@ Difficulty: 61030681983175.59
 
 เมื่อเช็คการทำงานของ Raspiblitz เป็นปกติทุกอย่าง ให้ใส่ข้อมูล node ของเราใน google sheet ด้านล่างเรียงตามลำดับกลุ่ม
 https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4/edit?usp=sharing
+
+## 5. เชื่อมต่อ Sparrow Wallet กับ Bitcoin Core 
+
+~~~
+₿ sudo vi /mnt/hdd/bitcoin/bitcoin.conf
+# Add the followin line
+main.rpcbind=192.168.1.69
+rpcallowip=192.168.1.0/24
+
+₿ sudo systemctl restart bitcoind
+₿ sudo ufw allow from 192.168.1.0/24 to any port 8332
+
+~~~
