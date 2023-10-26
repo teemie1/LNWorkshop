@@ -29,7 +29,7 @@ $ disk="/dev/sdX"
 
 # create data partition to the full size of the disk
 $ sudo sfdisk --delete ${disk}
-$ sudo parted ${disk} --align opt mkpart ext4 1 100%
+$ sudo parted ${disk} --align opt mkpart BLOCKCHAIN 1 100%
 
 # create ext4 filesystem
 $ sudo mkfs.ext4 -L data ${disk}1
