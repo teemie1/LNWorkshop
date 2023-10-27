@@ -6,6 +6,7 @@ https://github.com/teemie1/LNWorkshop/blob/main/Post-BTC2023_Workshop.md
 
 สามารถเข้าสู่หน้าเว็บนี้โดยการสแกนที่ QR Code ด้านบน
 
+## ขั้นตอนการติดตั้ง Raspiblitz
   - [1. เตรียมข้อมูล Bitcoin Blockchain โดยการคัดลอกจาก Copy Station (ทำโดยผู้สอน)](#1-เตรียมข้อมูล-Bitcoin-Blockchain-โดยการคัดลอกจาก-Copy-Station-ทำโดยผู้สอน)
   - [2. สร้าง SD Card หรือ Flash Drive สำหรับบู๊ต Raspiblitz](#2-สร้าง-SD-Card-หรือ-Flash-Drive-สำหรับบู๊ต-Raspiblitz)
   - [3. ประกอบเครื่องและติดตั้ง Raspiblitz](#3-ประกอบเครื่องและติดตั้ง-Raspiblitz)
