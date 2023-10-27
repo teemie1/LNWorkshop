@@ -7,6 +7,10 @@ https://github.com/teemie1/LNWorkshop/blob/main/Post-BTC2023_Workshop.md
 สามารถเข้าสู่หน้าเว็บนี้โดยการสแกนที่ QR Code ด้านบน
 
   - [1. เตรียมข้อมูล Bitcoin Blockchain โดยการคัดลอกจาก Copy Station (ทำโดยผู้สอน)](#1-เตรียมข้อมูล-Bitcoin-Blockchain-โดยการคัดลอกจาก-Copy-Station-ทำโดยผู้สอน)
+  - [2. สร้าง SD Card หรือ Flash Drive สำหรับบู๊ต Raspiblitz](#2-สร้าง-SD-Card-หรือ-Flash-Drive-สำหรับบู๊ต-Raspiblitz)
+  - [3. ประกอบเครื่องและติดตั้ง Raspiblitz](#3-ประกอบเครื่องและติดตั้ง-Raspiblitz)
+  - [4. เช็คความพร้อมของ Raspiblitz](#4-เช็คความพร้อมของ-Raspiblitz)
+  - [5. เชื่อมต่อ Sparrow Wallet กับ Bitcoin Core](#5-เชื่อมต่อ-Sparrow-Wallet-กับ-Bitcoin-Core)
 
 ## 1. เตรียมข้อมูล Bitcoin Blockchain โดยการคัดลอกจาก Copy Station (ทำโดยผู้สอน)
 ข้อมูลของ Bitcoin Blockchain มีขนาดประมาณ 550 GB ซึ่งใช้เวลา sync ถึง 1-3 วัน เพื่อลดเวลาลงจึงใช้วิธีคัดลอกจาก Copy Station ที่เตรียมไว้ล่วงหน้า จะลดเวลาลงเหลือประมาณ 0.5-1.5 ชั่วโมงเท่านั้น
@@ -55,7 +59,7 @@ $ sudo umount ${disk}1
 
 จำเป็นต้องใช้โปรแกรม balenaEtcher ในการแฟลช ซึ่งดาวน์โหลดได้จาก [blenaEtcher](https://etcher.balena.io/#download-etcher)
 
-## 3. ประกอบเครื่องและบู๊ต Raspiblitz
+## 3. ประกอบเครื่องและติดตั้ง Raspiblitz
 
   - เมื่อเราคัดลอก Bitcoin Blockchain Data บน SSD สำเร็จและ flash boot device เสร็จเรียบร้อยแล้ว เราจึงนำ SSD และ SD Card (หรือ flashdrive) ประกอบเข้าด้วยกัน เชื่อมต่อสายไฟ สายแลน และต่อจอมอนิเตอร์เพื่อบู๊ตด้วย SD Card (หรือ flashdrive) เมื่อบู๊ตสำเร็จจึงขึ้นจอมอนิเตอร์ดังนี้
 <img src="https://github.com/raspiblitz/raspiblitz/raw/v1.10/pictures/lcd0-welcome.png" />
