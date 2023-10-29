@@ -174,13 +174,21 @@ https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2e
 
 ## 5. เชื่อมต่อ Sparrow Wallet กับ Bitcoin Core 
 
+### แก้ไขไฟล์ bitcoin.conf และเปิดพอร์ตบน firewall
 ~~~
-₿ sudo vi /mnt/hdd/bitcoin/bitcoin.conf
+₿ sudo nano /mnt/hdd/bitcoin/bitcoin.conf
 # Add the followin line
-main.rpcbind=192.168.1.69
+main.rpcbind=[NODE IP ADDRESS]
 rpcallowip=192.168.1.0/24
 
 ₿ sudo systemctl restart bitcoind
 ₿ sudo ufw allow from 192.168.1.0/24 to any port 8332
 
 ~~~
+### ใช้ Sperrow Wallet เชื่อมต่อกับ Bitcoin Core บน Node
+  - เข้าไปที่เมนู File --> Preferences
+<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2038%20(7).jpg"  width="70%" height="70%"/>
+  - คลิ๊กที่ Server เลือก Server Type เป็น Bitcoin Core และใส่พารามิเตอร์ดังนีิ
+    - URL : [NODE IP ADDRESS]
+    - User/Pass: raspibolt / raspiblitz
+    - คลิ๊ก "Test Connection" เมื่อเชื่อมต่อ Node สำหรับจะแสดงผลดังรูป
