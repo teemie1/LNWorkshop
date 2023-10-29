@@ -187,8 +187,9 @@ rpcallowip=192.168.1.0/24
 ~~~
 ### ใช้ Sperrow Wallet เชื่อมต่อกับ Bitcoin Core บน Node
   - เข้าไปที่เมนู File --> Preferences
-<img src="Post-BTC2023_Workshop/2023-10-23%2018%2015%2038%20(7).jpg"  width="70%" height="70%"/>
+<img src="Post-BTC2023_Workshop/2023-10-29%2013%2011%2048.png"  width="70%" height="70%"/>
   - คลิ๊กที่ Server เลือก Server Type เป็น Bitcoin Core และใส่พารามิเตอร์ดังนีิ
     - URL : [NODE IP ADDRESS]
     - User/Pass: raspibolt / raspiblitz
     - คลิ๊ก "Test Connection" เมื่อเชื่อมต่อ Node สำหรับจะแสดงผลดังรูป
+<img src="Post-BTC2023_Workshop/2023-10-29%2013%2012%2024.png"  width="70%" height="70%"/>
