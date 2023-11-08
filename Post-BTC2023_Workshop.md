@@ -6,6 +6,14 @@ https://github.com/teemie1/LNWorkshop/blob/main/Post-BTC2023_Workshop.md
 
 สามารถเข้าสู่หน้าเว็บนี้โดยการสแกนที่ QR Code ด้านบน
 
+## เตรียมอุปกรณ์สำหรับ Raspiblitz
+อุปกรณ์ที่ใช้งาน Raspiblitz สามารถแบ่งได้เป็น 2 รูปแบบดังนี้
+
+### Raspberry Pi
+[link](https://github.com/raspiblitz/raspiblitz#hardware-needed)
+### Intel x86 Machine (NUC/miniPC, Laptop, Desktop)
+[link](https://github.com/raspiblitz/raspiblitz/blob/v1.10/alternative.platforms/README.md#minimum-requirements)
+
 ## ขั้นตอนการติดตั้ง Raspiblitz
   - [1. คัดลอก Blockchain ลงบน SSD จาก Copy Station (ทำโดยผู้สอน)](#1-คัดลอก-Blockchain-ลงบน-SSD-จาก-Copy-Station-ทำโดยผู้สอน)
   - [2. สร้าง SD Card หรือ Flash Drive สำหรับบู๊ต Raspiblitz](#2-สร้าง-SD-Card-หรือ-Flash-Drive-สำหรับบู๊ต-Raspiblitz)
