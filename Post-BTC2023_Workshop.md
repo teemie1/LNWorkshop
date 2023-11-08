@@ -2,6 +2,7 @@
 <img src="Post-BTC2023_Workshop/Post-BTC2023_Workshop_QR.png"  width="40%" height="40%"/>
 
 https://github.com/teemie1/LNWorkshop/blob/main/Post-BTC2023_Workshop.md
+https://tinyurl.com/4y758cx9
 
 
 สามารถเข้าสู่หน้าเว็บนี้โดยการสแกนที่ QR Code ด้านบน
