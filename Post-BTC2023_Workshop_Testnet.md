@@ -1,4 +1,10 @@
 # Run LND and Sparrow in Testnet
+<img src="Post-BTC2023_Workshop/testnet_guide_qr.png"  width="40%" height="40%"/>
+
+https://github.com/teemie1/LNWorkshop/blob/main/Post-BTC2023_Workshop_Testnet.md
+
+https://tinyurl.com/y94cvwbe
+
 
 ## Run Testnet LND
 ~~~
