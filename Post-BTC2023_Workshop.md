@@ -193,7 +193,7 @@ rpcallowip=192.168.1.0/24
 ₿ sudo ufw allow from 192.168.1.0/24 to any port 8332
 
 ~~~
-### ใช้ Sperrow Wallet เชื่อมต่อกับ Bitcoin Core บน Node
+### ใช้ Sparrow Wallet เชื่อมต่อกับ Bitcoin Core บน Node
   - เข้าไปที่เมนู File --> Preferences
 <img src="Post-BTC2023_Workshop/2023-10-29%2013%2012%2024.png"  width="70%" height="70%"/>
 
