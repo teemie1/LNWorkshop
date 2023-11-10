@@ -6,7 +6,7 @@ https://github.com/teemie1/LNWorkshop/blob/main/Post-BTC2023_Workshop_Testnet.md
 https://tinyurl.com/y94cvwbe
 
 
-## Run Testnet LND
+## Configure & Run Testnet LND
 ~~~
 # Configure Testnet LND Environment
 $ sudo -i
@@ -15,7 +15,6 @@ $ touch /mnt/hdd/lndtest/lndtest.conf
 $ echo "raspiblitz" > /mnt/hdd/lndtest/password.txt
 $ chown bitcoin.bitcoin -R /mnt/hdd/lndtest
 $ exit
-
 
 # Start Testnet LND Daemon
 $ sudo -u bitcoin /usr/local/bin/lnd \
@@ -41,9 +40,12 @@ $ sudo -u bitcoin /usr/local/bin/lnd \
     --tor.privatekeypath=/mnt/hdd/lndtest/tv3_onion_private_key \
     --tor.socks=9050 \
     --tor.control=9051 
-
-# Open another terminal window and create lnd testnet wallet
+~~~
+Open another terminal window and create lnd testnet wallet
+~~~
+# Setting tlncli command for testnet LND
 $ alias tlncli='sudo -u bitcoin /usr/local/bin/lncli -n=testnet --rpcserver 127.0.0.1:11009 --tlscertpath /mnt/hdd/lndtest/tls.cert --macaroonpath /mnt/hdd/lndtest/data/chain/bitcoin/testnet/admin.macaroon'
+# Create new LND wallet
 $ tlncli create
 Input wallet password: raspiblitz
 Confirm password: raspiblitz
@@ -76,7 +78,7 @@ lnd successfully initialized!
 # Verify Testnet LND daemon
 $ tlncli getinfo
 
-# Usefull Testnet LND Command
+# Useful Testnet LND Command
 $ tlncli connect 038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9@203.132.94.196:9735
 $ tlncli openchannel --sat_per_vbyte 8 038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9 1000 0
 $ tlncli walletbalance
