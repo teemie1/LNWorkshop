@@ -79,14 +79,14 @@ lnd successfully initialized!
 $ tlncli getinfo
 
 # Useful Testnet LND Command
-$ tlncli connect 038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9@203.132.94.196:9735
-$ tlncli openchannel --sat_per_vbyte 8 038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9 1000 0
+$ tlncli newaddress p2wkh
 $ tlncli walletbalance
+$ tlncli connect 038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9@203.132.94.196:9735
+$ tlncli openchannel --sat_per_vbyte 8 038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9 10000 0
 $ tlncli listpeers
 $ tlncli pendingchannels
 $ tlncli listchannels
 $ tlncli listpayments
-
 ~~~
 
 ## Run Sparrow in Testnet Mode
