@@ -89,4 +89,15 @@ $ tlncli listchannels
 $ tlncli listpayments
 ~~~
 
-## Run Sparrow in Testnet Mode
+## ใช้ Sparrow Wallet ในโหมด Testnet
+  - เลือกเมนู Tool --> Restart in Testnet
+<img src="Post-BTC2023_Workshop/testnet_sparrow_01.png"  width="70%" height="70%"/>
+
+  - เข้าไปที่เมนู File --> Preferences
+<img src="Post-BTC2023_Workshop/testnet_sparrow_02.png"  width="70%" height="70%"/>
+
+  - คลิ๊กที่ Server เลือก Server Type เป็น Bitcoin Core และใส่พารามิเตอร์ดังนีิ
+    - URL : [NODE IP ADDRESS]
+    - User/Pass: raspibolt / raspiblitz
+    - คลิ๊ก "Test Connection" เมื่อเชื่อมต่อ Node สำหรับจะแสดงผลดังรูป
+<img src="Post-BTC2023_Workshop/testnet_sparrow_03.png"  width="70%" height="70%"/>
