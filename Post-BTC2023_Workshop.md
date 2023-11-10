@@ -35,7 +35,7 @@ https://tinyurl.com/4y758cx9
 # Wait for copy blockchain data.
 ~~~
 
-### Thinkpad Labtop
+### Thinkpad Laptop
 นำ SSD ขนาด 1-2 TB มาเชื่อมต่อ USB กับ Thinkpad และใช้คำสั่งคัดลอกดังนี้
 ~~~
 # Open terminal windows, identify the USB connected disk
