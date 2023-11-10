@@ -1,4 +1,4 @@
-# Run LND and Sparrow in Testnet
+# Run Sparrow and LND in Testnet
 <img src="Post-BTC2023_Workshop/testnet_guide_qr.png"  width="40%" height="40%"/>
 
 https://github.com/teemie1/LNWorkshop/blob/main/Post-BTC2023_Workshop_Testnet.md
@@ -94,7 +94,7 @@ $ tlncli getinfo
 $ tlncli newaddress p2wkh
 $ tlncli walletbalance
 $ tlncli connect 038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9@203.132.94.196:9735
-$ tlncli openchannel --sat_per_vbyte 8 038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9 10000 0
+$ tlncli openchannel --sat_per_vbyte 8 038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9 20000 0
 $ tlncli listpeers
 $ tlncli pendingchannels
 $ tlncli listchannels
