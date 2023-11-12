@@ -20,10 +20,12 @@
 
   - เมื่อลบข้อมูลทั้งหมดทิ้งพร้อมกับขึ้นหน้าต่างให้เรากำหนด Password C ของ LND Node ใหม่
 <img src="Post-BTC2023_Workshop/Reset_LND_007.png"  width="70%" height="70%"/>
-<img src="Post-BTC2023_Workshop/Reset_LND_008.png"  width="70%" height="70%"/>  
+<img src="Post-BTC2023_Workshop/Reset_LND_008.png"  width="70%" height="70%"/>
+
   - เราจะได้รับ Seed ใหม่ จดใส่กระดาษให้เรียบร้อย
 <img src="Post-BTC2023_Workshop/Reset_LND_009.png"  width="70%" height="70%"/>
-<img src="Post-BTC2023_Workshop/Reset_LND_010.png"  width="70%" height="70%"/>  
+<img src="Post-BTC2023_Workshop/Reset_LND_010.png"  width="70%" height="70%"/>
+
   - สุดท้ายเราจะได้ node ใหม่ ใช้ seed ใหม่เรียบร้อย และใส่ Password C ที่เราตั้งค่าใหม่เปิดเปิดใช้งาน LND Node ใหม่ได้เลยครับ
 <img src="Post-BTC2023_Workshop/Reset_LND_011.png"  width="70%" height="70%"/>
 <img src="Post-BTC2023_Workshop/Reset_LND_012.png"  width="70%" height="70%"/>  
