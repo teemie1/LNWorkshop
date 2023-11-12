@@ -1,4 +1,4 @@
-# วิธีล้าง LND Wallet และสร้าง LND Wallet ใหม่
+# วิธีล้าง LND Wallet และสร้าง LND Wallet ใหม่ใน Raspiblitz
   - เลือกเมนู REPAIR ใน Raspiblitz
 <img src="Post-BTC2023_Workshop/Reset_LND_001.png"  width="70%" height="70%"/>
  
