@@ -106,14 +106,14 @@ Go to Menu "Manage : Node" --> "Channels" --> "OPEN CHANNEL"
 
 |No.|Node Name |Open Batch Channels to|Amount (Sats)     |
 |---|----------|----------------|------------------|
-| 1 | node01   | node09 & node11| 1,000,000        |
-| 2 | node02   | node09 & node11| 1,000,000        |
-| 3 | node03   | node09 & node11| 1,000,000        |
-| 4 | node04   | node09 & node11| 1,000,000        |
-| 5 | node05   | node09 & node11| 1,000,000        |
-| 6 | node06   | node09 & node11| 1,000,000        |
-| 7 | node07   | node09 & node11| 1,000,000        |
-| 8 | node08   | node09 & node11| 1,000,000        |
+| 1 | node01   | node09 & node11| 500,000        |
+| 2 | node02   | node09 & node11| 500,000        |
+| 3 | node03   | node09 & node11| 500,000        |
+| 4 | node04   | node09 & node11| 500,000        |
+| 5 | node05   | node09 & node11| 500,000        |
+| 6 | node06   | node09 & node11| 500,000        |
+| 7 | node07   | node09 & node11| 500,000        |
+| 8 | node08   | node09 & node11| 500,000        |
 
 #### lncli
 ~~~
@@ -122,10 +122,10 @@ lncli batchopenchannel --sat_per_vbyte=[Fee] [Channel JSON]
 # Example:
   lncli batchopenchannel --sat_per_vbyte=1 '[{
     "node_pubkey": "038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9",
-    "local_funding_amount": 200000
+    "local_funding_amount": 500000
   }, {
     "node_pubkey": "03e84a109cd70e57864274932fc87c5e6434c59ebb8e6e7d28532219ba38f7f6df",
-    "local_funding_amount": 200000
+    "local_funding_amount": 500000
   }]'
 
 ~~~
@@ -140,14 +140,14 @@ Click at "Batching" --> "Batch Open Up To 10 Channels"
 
 |No.|Node Name |Open Channel to|Amount (Sats)     |Push Amount (Sats)|
 |---|----------|---------------|------------------|--|
-| 1 | node01   | node10        | 1,000,000        |500,000|
-| 2 | node02   | node10        | 1,000,000        |500,000|
-| 3 | node03   | node10        | 1,000,000        |500,000|
-| 4 | node04   | node10        | 1,000,000        |500,000|
-| 5 | node05   | node10        | 1,000,000        |500,000|
-| 6 | node06   | node10        | 1,000,000        |500,000|
-| 7 | node07   | node10        | 1,000,000        |500,000|
-| 8 | node08   | node10        | 1,000,000        |500,000|
+| 1 | node01   | node10        | 400,000        |200,000|
+| 2 | node02   | node10        | 400,000        |200,000|
+| 3 | node03   | node10        | 400,000        |200,000|
+| 4 | node04   | node10        | 400,000        |200,000|
+| 5 | node05   | node10        | 400,000        |200,000|
+| 6 | node06   | node10        | 400,000        |200,000|
+| 7 | node07   | node10        | 400,000        |200,000|
+| 8 | node08   | node10        | 400,000        |200,000|
 
 #### lncli
 ~~~
@@ -177,6 +177,43 @@ ls -l /data/backup/nodeXX/channel.backup
 ~~~
 
 ## Basic Rebalancing
+
+|No.|Node Name |From Channel|To Channel|Rebalance Amount (Sats)     |
+|---|----------|------------|----|------------------|
+| 1 | node01   | node02 | node08| 51,000        |
+| 2 | node02   | node03 | node01| 52,000        |
+| 3 | node03   | node04 | node02| 53,000        |
+| 4 | node04   | node05 | node03| 54,000        |
+| 5 | node05   | node06 | node04| 55,000        |
+| 6 | node06   | node07 | node05| 56,000        |
+| 7 | node07   | node08 | node06| 57,000        |
+| 8 | node08   | node01 | node07| 58,000        |
+
+#### rebalance-lnd
+~~~
+sudo -iu rebalance-lnd
+# Check the channel id
+rebalance.py --network testnet -c
+
+# Rebalance without reckless
+rebalance.py --network testnet -f [FROM_CHANNEL] -t [TO_CHANNEL] -a [AMOUNT] --fee-limit 1000
+
+# Rebalance with reckless
+rebalance.py --network testnet -f [FROM_CHANNEL] -t [TO_CHANNEL] -a [AMOUNT] --fee-limit 1000 --reckless
+~~~
+
+#### RTL
+~~~
+Go to Menu "Lightning"--> "Peers/Channels" --> At Action Menu "Circular Rebalance"
+~~~
+#### Thunderhub
+~~~
+Go to Menu "Rebalance"
+~~~
+#### LNDg
+~~~
+Click at "Rebalancing"
+~~~
 
 ## Lightning Payment
 
