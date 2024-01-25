@@ -4,7 +4,7 @@
 
 ### Workshop Architecture
 
-### Creating Receiving Address
+### Creating Bitcoin Receive Address
 
 ### Tools for Lightning Node
 
