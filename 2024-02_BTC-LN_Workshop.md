@@ -269,7 +269,7 @@ Go to Menu "Home" --> "⚡Send" --> "Is keysend to Yes"
 
 
 ### Paying by Bolt12 Offer (CLN Only)
-|No.|Node Name |keysend to |Amount (Sats)     |
+|No.|Node Name |Pay to |Amount (Sats)     |
 |---|----------|-----------|------------------|
 | 1 | node09   | node11 | 3,000        |
 | 2 | node11   | node09 | 4,000        |
