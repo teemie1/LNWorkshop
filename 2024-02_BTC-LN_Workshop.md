@@ -273,7 +273,61 @@ Go to Menu "Home" --> "⚡Send" --> "Is keysend to Yes"
 ## Closing Lightning Channel
 
 ### Mutual Closing Channel
+|No.|Node Name |Close Channel to |
+|---|----------|-----------|
+| 1 | node01   | node09 |
+| 2 | node02   | node11 |
+| 3 | node03   | node09 |
+| 4 | node04   | node11 |
+| 5 | node05   | node09 |
+| 6 | node06   | node11 |
+| 7 | node07   | node00 |
+| 8 | node08   | node11 |
 
+#### lncli
+~~~
+# List Channels
+lncli listchannels
+# List Pending Channels
+lncli pendingchannels
+
+# Close Channel
+lncli closechannel --chan_point [CHANNEL_POINT]
+
+# Example
+lncli closechannel --chan_point 5d5525977da0bb762866afa953cdb2d69e7fe187f51e13b188345a7121596266:2
+~~~
+#### RTL
+~~~
+Go to Menu "Lightning"--> "Peers/Channels" --> Action Menu : "Close Channel"
+~~~
+#### Thunderhub
+~~~
+Go to Menu "Channels" --> Action "Close Channel"
+~~~
+#### LNDg
+~~~
+Click at "Close a Channel"
+~~~
 ### Force Closing Channel
+|No.|Node Name |Force Close Channel to |
+|---|----------|-----------|
+| 1 | node01   | node10 |
+| 2 | node02   | node10 |
+| 3 | node03   | node10 |
+| 4 | node04   | node10 |
+| 5 | node05   | node10 |
+| 6 | node06   | node10 |
+| 7 | node07   | node10 |
+| 8 | node08   | node10 |
+
+#### lncli
+~~~
+# Close Channel
+lncli closechannel --force --chan_point [CHANNEL_POINT]
+
+# Example
+lncli closechannel --force --chan_point 7be3bd753a31d7531b1819d89453b6e6d1b1c442634d0282e1b4b7425ada0f8a:0
+~~~
 
 ## Recovering LND from Channel Backup
