@@ -154,7 +154,7 @@ Click at "Batching" --> "Batch Open Up To 10 Channels"
 lncli openchannel --connect [Target Node IP]:[Target Node Port] [Target Node ID] [Amount in Sats] [Push Amount in Sats]
 
 # Example:
- lncli openchannel --connect 18.191.253.246:9735 02eadbd9e7557375161df8b646776a547c5cbc2e95b3071ec81553f8ec2cea3b8c 200000 100000
+ lncli openchannel --connect 146.190.111.127:9735 025e3a294d3b13e44a704fc3a825c977e8c46d214b696d51ddf1e55f5b193ced53 200000 100000
 
 ~~~
 #### Thunderhub
@@ -167,6 +167,10 @@ Go to Menu "Home" --> "Quick Action : Open" --> "Manual : Open" --> "Advanced" -
 Go to Menu "Manage : Node" --> "Channels" --> "OPEN CHANNEL" --> "Advanced" --> "Push Amount"
 ~~~
 ### Channel Backup (SCB)
+Check channel backup file by command line.
+~~~
+ls -l /data/backup/nodeXX/
+~~~
 
 ## Basic Rebalancing
 
