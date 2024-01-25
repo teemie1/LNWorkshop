@@ -14,8 +14,8 @@
 | 6 |  node06  |  LND   |          |BTC-LN_W0rk$h0p|   |          |   |       |
 | 7 |  node07  |  LND   |          |BTC-LN_W0rk$h0p|   |          |   |       |
 | 8 |  node08  |  LND   |146.190.96.228 |BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)|[Link](https://satsdays.com:4002/)| [Link](http://node08.satsdays.com:8889/) |[Link](https://node08.satsdays.com/admin?usr=ac65dfacf1a840f2837da3455c2cdfdb)|
-| 9 |  node09  |  CLN   |128.199.144.192|BTC-LN_W0rk$h0p|         |   |       | |
-|10 |  node10  |  Eclair|146.190.111.127|BTC-LN_W0rk$h0p|         |   |       | |
+| 9 |  node09  |  CLN   |128.199.144.192|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)| - | - |[Link](https://node09.satsdays.com/wallet?usr=844627c9e2564841ab88f295e6de7dd0)|
+|10 |  node10  |  Eclair|146.190.111.127|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)| - | - |[Link](https://node10.satsdays.com/admin?usr=b4243c86d5b34969baea0cca463af07a)|
 |11 |  node11  |  CLN   ||BTC-LN_W0rk$h0p|   |      |
 |12 |  node12  |  LND   ||BTC-LN_W0rk$h0p|   |      |
 
