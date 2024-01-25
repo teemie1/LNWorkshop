@@ -4,6 +4,22 @@
 
 ### Workshop Architecture
 
+|No.|Node Name |Software|IP Address|admin password |RTL|LNbits|
+|---|----------|--------|----------|---------------|---|------|
+| 1 |  node01  |  LND   |          |BTC-LN_W0rk$h0p|   |      |
+| 2 |  node02  |  LND   |          |BTC-LN_W0rk$h0p|   |      |
+| 3 |  node03  |  LND   |          |BTC-LN_W0rk$h0p|   |      |
+| 4 |  node04  |  LND   |          |BTC-LN_W0rk$h0p|   |      |
+| 5 |  node05  |  LND   |          |BTC-LN_W0rk$h0p|   |      |
+| 6 |  node06  |  LND   |          |BTC-LN_W0rk$h0p|   |      |
+| 7 |  node07  |  LND   |          |BTC-LN_W0rk$h0p|   |      |
+| 8 |  node08  |  LND   |146.190.96.228 |BTC-LN_W0rk$h0p|   |      |
+| 9 |  node09  |  CLN   |128.199.144.192|BTC-LN_W0rk$h0p|   |      |
+|10 |  node10  |  Eclair|146.190.111.127|BTC-LN_W0rk$h0p|   |      |
+|11 |  node11  |  CLN   ||BTC-LN_W0rk$h0p|   |      |
+|12 |  node12  |  LND   ||BTC-LN_W0rk$h0p|   |      |
+
+
 ### Creating Bitcoin Receive Address
 
 ### Tools for Lightning Node Management
