@@ -24,7 +24,11 @@
 
 #### lncli
 ~~~
+# Generate address
 lncli newaddress p2wkh
+
+# Check the balance
+lncli walletbalance
 ~~~
 #### RTL
 ~~~
@@ -38,29 +42,63 @@ Go to Menu "Home" --> "Receive"
 ~~~
 Click at "New Onchain Address"
 ~~~
-### Tools for Lightning Node Management
+เมื่อสร้าง address สำหรับการรับ testnet bitcoin เรียบร้อยแล้วให้นำไปใส่ใน google sheet ที่ [link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4) ตามกลุ่มของแต่ละคน
+
+### Gather Node URI for Peer Connection
 #### lncli
-
+~~~
+lncli getinfo
+~~~
 #### RTL
-
+~~~
+Go to Menu "Publiv Key" --> "Node URI1"
+~~~
 #### Thunderhub
-
+~~~
+Go to Menu "Home" --> "Connect"
+~~~
 #### LNDg
-
-#### LNbits
+~~~
+Look at "Addresses"
+~~~
+เมื่อทราบ Node URI ของกลุ่มแล้วให้นำไปใส่ใน Google Sheet เช่นกัน[link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4) ตามกลุ่มของแต่ละคน
 
 ## Opening Lightning Channel
 
 ### Opening Single Channel 
+
+|No.|Node Name |Open Channel to|Amount (Sats)     |
+|---|----------|---------------|------------------|
+| 1 | Node01   | Node02        | 1,000,000        |
+| 2 | Node02   | Node03        | 1,000,000        |
+| 3 | Node03   | Node04        | 1,000,000        |
+| 4 | Node04   | Node05        | 1,000,000        |
+| 5 | Node05   | Node06        | 1,000,000        |
+| 6 | Node06   | Node07        | 1,000,000        |
+| 7 | Node07   | Node08        | 1,000,000        |
+| 8 | Node08   | Node01        | 1,000,000        |
+
 #### lncli
-
+~~~
+lncli openchannel --connect 
+~~~
 #### RTL
-
+~~~
+Go to Menu "Lightning" --> "Peers/Channels" --> "Open Channel"
+~~~
 #### Thunderhub
-
+~~~
+Go to Menu "Home" --> "Quick Action : Open" --> "Manual : Open" 
+~~~
 #### LNDg
-
+~~~
+Go to  "Open a Channel"
+~~~
 #### LNbits
+~~~
+Go to Menu "Manage : Node" --> "Channels" --> "OPEN CHANNEL"
+~~~
+
 ### Opening Multi-Channel by Batching
 
 ### Opening Channel with Push Value
