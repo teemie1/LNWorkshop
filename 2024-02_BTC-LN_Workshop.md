@@ -26,12 +26,14 @@
 
 ### Paying by Keysend
 
-### Paying by Offer (Only CLN)
+### Paying by Offer (CLN Only)
 
 ## Closing Lightning Channel
 
 ### Mutual Closing Channel
 
 ### Force Closing Channel
+
+### Splicing Channel (CLN Only)
 
 ## Recovering LND from Channel Backup
