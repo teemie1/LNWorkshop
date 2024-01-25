@@ -34,6 +34,4 @@
 
 ### Force Closing Channel
 
-### Splicing Channel (CLN Only)
-
 ## Recovering LND from Channel Backup
