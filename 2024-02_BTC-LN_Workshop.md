@@ -1,21 +1,29 @@
 # Lightning Network Fundamental
 
-## Opening Channel & Channel Backup (SCB)
+## Opening Lightning Channel
+
+### Opening Single Channel 
+
+### Opening Multi-Channel by Batching
+
+### Opening Channel with Push Value
+
+### Channel Backup (SCB)
 
 ## Basic Rebalancing
 
-## Opening Multi-Channel by Batching
+## Lightning Payment
 
-## Opening Channel with Push Value
+### Paying by Invoice
 
-## Paying by Invoice
+### Paying by Keysend
 
-## Paying by Keysend
+### Paying by Offer (Only CLN)
 
-## Paying by Offer (Only CLN)
+## Closing Lightning Channel
 
-## Mutual Closing Channel
+### Mutual Closing Channel
 
-## Force Closing Channel
+### Force Closing Channel
 
 ## Recovering LND from Channel Backup
