@@ -237,10 +237,36 @@ Go to Menu "Home" --> "⚡Send"
 ~~~
 #### LNbits
 ~~~
-Click at "New Onchain Address"
+Go to Menu "Wallet" --> "PASTE REQUEST"
 ~~~
 
 ### Paying by Keysend
+
+|No.|Node Name |keysend to |Amount (Sats)     |
+|---|----------|-----------|------------------|
+| 1 | node01   | node03 | 11,000        |
+| 2 | node02   | node05 | 12,000        |
+| 3 | node03   | node07 | 13,000        |
+| 4 | node04   | node01 | 14,000        |
+| 5 | node05   | node08 | 15,000        |
+| 6 | node06   | node04 | 16,000        |
+| 7 | node07   | node06 | 17,000        |
+| 8 | node08   | node02 | 18,000        |
+
+#### lncli
+~~~
+# Pay invoice
+lncli sendpayment --dest [TARGET NODE ID] --amt [AMOUNT] --keysend
+
+# Example
+  lncli sendpayment --dest 02594a72bb0405de2490eea7b592f9a09365e2112e75689357caefcff65fee4044 --amt 2000 --keysend
+~~~
+
+#### Thunderhub
+~~~
+Go to Menu "Home" --> "⚡Send" --> "Is keysend to Yes"
+~~~
+
 
 ### Paying by Offer (CLN Only)
 
