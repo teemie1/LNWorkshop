@@ -78,7 +78,7 @@ Look at "Addresses"
 | 7 | node07   | node08        | 1,000,000        |
 | 8 | node08   | node01        | 1,000,000        |
 
-#### lncli
+#### lncli (command)
 ~~~
 lncli openchannel --connect [Target Node IP]:[Target Node Port] [Target Node ID] [Amount in Sats]
 
@@ -115,7 +115,7 @@ Go to Menu "Manage : Node" --> "Channels" --> "OPEN CHANNEL"
 | 7 | node07   | node09 & node11| 500,000        |
 | 8 | node08   | node09 & node11| 500,000        |
 
-#### lncli
+#### lncli (command)
 ~~~
 lncli batchopenchannel --sat_per_vbyte=[Fee] [Channel JSON]
 
@@ -149,7 +149,7 @@ Click at "Batching" --> "Batch Open Up To 10 Channels"
 | 7 | node07   | node10        | 400,000        |200,000|
 | 8 | node08   | node10        | 400,000        |200,000|
 
-#### lncli
+#### lncli (command)
 ~~~
 lncli openchannel --connect [Target Node IP]:[Target Node Port] [Target Node ID] [Amount in Sats] [Push Amount in Sats]
 
@@ -189,7 +189,7 @@ ls -l /data/backup/nodeXX/channel.backup
 | 7 | node07   | node08 | node06| 57,000        |
 | 8 | node08   | node01 | node07| 58,000        |
 
-#### rebalance-lnd
+#### rebalance-lnd (command)
 ~~~
 sudo -iu rebalance-lnd
 # Check the channel id
