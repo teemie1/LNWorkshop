@@ -6,7 +6,7 @@
 
 ### Creating Bitcoin Receive Address
 
-### Tools for Lightning Node
+### Tools for Lightning Node Management
 
 ## Opening Lightning Channel
 
