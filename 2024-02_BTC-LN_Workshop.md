@@ -69,14 +69,14 @@ Look at "Addresses"
 
 |No.|Node Name |Open Channel to|Amount (Sats)     |
 |---|----------|---------------|------------------|
-| 1 | Node01   | Node02        | 1,000,000        |
-| 2 | Node02   | Node03        | 1,000,000        |
-| 3 | Node03   | Node04        | 1,000,000        |
-| 4 | Node04   | Node05        | 1,000,000        |
-| 5 | Node05   | Node06        | 1,000,000        |
-| 6 | Node06   | Node07        | 1,000,000        |
-| 7 | Node07   | Node08        | 1,000,000        |
-| 8 | Node08   | Node01        | 1,000,000        |
+| 1 | node01   | node02        | 1,000,000        |
+| 2 | node02   | node03        | 1,000,000        |
+| 3 | node03   | node04        | 1,000,000        |
+| 4 | node04   | node05        | 1,000,000        |
+| 5 | node05   | node06        | 1,000,000        |
+| 6 | node06   | node07        | 1,000,000        |
+| 7 | node07   | node08        | 1,000,000        |
+| 8 | node08   | node01        | 1,000,000        |
 
 #### lncli
 ~~~
@@ -106,14 +106,14 @@ Go to Menu "Manage : Node" --> "Channels" --> "OPEN CHANNEL"
 
 |No.|Node Name |Open Batch Channels to|Amount (Sats)     |
 |---|----------|----------------|------------------|
-| 1 | Node01   | Node09 & Node11| 1,000,000        |
-| 2 | Node02   | Node09 & Node11| 1,000,000        |
-| 3 | Node03   | Node09 & Node11| 1,000,000        |
-| 4 | Node04   | Node09 & Node11| 1,000,000        |
-| 5 | Node05   | Node09 & Node11| 1,000,000        |
-| 6 | Node06   | Node09 & Node11| 1,000,000        |
-| 7 | Node07   | Node09 & Node11| 1,000,000        |
-| 8 | Node08   | Node09 & Node11| 1,000,000        |
+| 1 | node01   | node09 & node11| 1,000,000        |
+| 2 | node02   | node09 & node11| 1,000,000        |
+| 3 | node03   | node09 & node11| 1,000,000        |
+| 4 | node04   | node09 & node11| 1,000,000        |
+| 5 | node05   | node09 & node11| 1,000,000        |
+| 6 | node06   | node09 & node11| 1,000,000        |
+| 7 | node07   | node09 & node11| 1,000,000        |
+| 8 | node08   | node09 & node11| 1,000,000        |
 
 #### lncli
 ~~~
@@ -140,14 +140,14 @@ Click at "Batching" --> "Batch Open Up To 10 Channels"
 
 |No.|Node Name |Open Channel to|Amount (Sats)     |Push Amount (Sats)|
 |---|----------|---------------|------------------|--|
-| 1 | Node01   | Node10        | 1,000,000        |500,000|
-| 2 | Node02   | Node10        | 1,000,000        |500,000|
-| 3 | Node03   | Node10        | 1,000,000        |500,000|
-| 4 | Node04   | Node10        | 1,000,000        |500,000|
-| 5 | Node05   | Node10        | 1,000,000        |500,000|
-| 6 | Node06   | Node10        | 1,000,000        |500,000|
-| 7 | Node07   | Node10        | 1,000,000        |500,000|
-| 8 | Node08   | Node10        | 1,000,000        |500,000|
+| 1 | node01   | node10        | 1,000,000        |500,000|
+| 2 | node02   | node10        | 1,000,000        |500,000|
+| 3 | node03   | node10        | 1,000,000        |500,000|
+| 4 | node04   | node10        | 1,000,000        |500,000|
+| 5 | node05   | node10        | 1,000,000        |500,000|
+| 6 | node06   | node10        | 1,000,000        |500,000|
+| 7 | node07   | node10        | 1,000,000        |500,000|
+| 8 | node08   | node10        | 1,000,000        |500,000|
 
 #### lncli
 ~~~
@@ -169,7 +169,11 @@ Go to Menu "Manage : Node" --> "Channels" --> "OPEN CHANNEL" --> "Advanced" --> 
 ### Channel Backup (SCB)
 Check channel backup file by command line.
 ~~~
-ls -l /data/backup/nodeXX/
+# Find the backup file path
+grep backupfilepath /data/lnd/lnd.conf
+
+# List backup file
+ls -l /data/backup/nodeXX/channel.backup
 ~~~
 
 ## Basic Rebalancing
