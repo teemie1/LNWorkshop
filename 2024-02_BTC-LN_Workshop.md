@@ -22,12 +22,45 @@
 
 ### Creating Bitcoin Receive Address
 
+#### lncli
+~~~
+lncli newaddress p2wkh
+~~~
+#### RTL
+~~~
+Go to Menu "On-chain"--> "Generate Address"
+~~~
+#### Thunderhub
+~~~
+Go to Menu "Home" --> "Receive"
+~~~
+#### LNDg
+~~~
+Click at "New Onchain Address"
+~~~
 ### Tools for Lightning Node Management
+#### lncli
+
+#### RTL
+
+#### Thunderhub
+
+#### LNDg
+
+#### LNbits
 
 ## Opening Lightning Channel
 
 ### Opening Single Channel 
+#### lncli
 
+#### RTL
+
+#### Thunderhub
+
+#### LNDg
+
+#### LNbits
 ### Opening Multi-Channel by Batching
 
 ### Opening Channel with Push Value
