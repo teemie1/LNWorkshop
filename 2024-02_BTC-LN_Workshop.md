@@ -117,15 +117,15 @@ Go to Menu "Manage : Node" --> "Channels" --> "OPEN CHANNEL"
 
 #### lncli
 ~~~
-lncli batchopenchannel --connect [Target Node IP]:[Target Node Port] [Target Node ID] [Amount in Sats]
+lncli batchopenchannel --sat_per_vbyte=[Fee] [Channel JSON]
 
 # Example:
- lncli batchopenchannel --sat_per_vbyte=1 '[{
-    "node_pubkey": "",
-    "local_funding_amount": 1000000,
+  lncli batchopenchannel --sat_per_vbyte=1 '[{
+    "node_pubkey": "038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9",
+    "local_funding_amount": 200000
   }, {
-    "node_pubkey": "03fedcba...",
-    "local_funding_amount": 1000000,
+    "node_pubkey": "03e84a109cd70e57864274932fc87c5e6434c59ebb8e6e7d28532219ba38f7f6df",
+    "local_funding_amount": 200000
   }]'
 
 ~~~
@@ -138,18 +138,23 @@ Click at "Batching" --> "Batch Open Up To 10 Channels"
 
 ### Opening Channel with Push Value
 
+|No.|Node Name |Open Channel to|Amount (Sats)     |Push Amount (Sats)|
+|---|----------|---------------|------------------|--|
+| 1 | Node01   | Node10        | 1,000,000        |500,000|
+| 2 | Node02   | Node10        | 1,000,000        |500,000|
+| 3 | Node03   | Node10        | 1,000,000        |500,000|
+| 4 | Node04   | Node10        | 1,000,000        |500,000|
+| 5 | Node05   | Node10        | 1,000,000        |500,000|
+| 6 | Node06   | Node10        | 1,000,000        |500,000|
+| 7 | Node07   | Node10        | 1,000,000        |500,000|
+| 8 | Node08   | Node10        | 1,000,000        |500,000|
+
 #### lncli
 ~~~
-lncli openchannel --connect [Target Node IP]:[Target Node Port] [Target Node ID] [Amount in Sats]
+lncli openchannel --connect [Target Node IP]:[Target Node Port] [Target Node ID] [Amount in Sats] [Push Amount in Sats]
 
 # Example:
- lncli batchopenchannel --sat_per_vbyte=1 '[{
-    "node_pubkey": "",
-    "local_funding_amount": 1000000,
-  }, {
-    "node_pubkey": "03fedcba...",
-    "local_funding_amount": 1000000,
-  }]'
+ lncli openchannel --connect 18.191.253.246:9735 02eadbd9e7557375161df8b646776a547c5cbc2e95b3071ec81553f8ec2cea3b8c 200000 100000
 
 ~~~
 #### Thunderhub
