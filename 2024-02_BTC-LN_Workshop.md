@@ -36,7 +36,7 @@ Go to Menu "On-chain"--> "Generate Address"
 ~~~
 #### Thunderhub
 ~~~
-Go to Menu "Home" --> "Receive"
+Go to Menu "Home" --> "⚓Receive"
 ~~~
 #### LNDg
 ~~~
@@ -218,6 +218,27 @@ Click at "Rebalancing"
 ## Lightning Payment
 
 ### Paying by Invoice
+
+#### lncli
+~~~
+# Pay invoice
+lncli payinvoice [INVOICE]
+
+# Example
+  lncli payinvoice lntb10u1pjmyg39pp5cg7qra7ffwt9uvcxxwsda4gp03qplzq3zzg6d36yz0rqs9t54d6qdq2w3jhxapsxgsp5xzzwdrdq6rjze83x0u4ltl8rfcpp3hm8gk385d87ng8unmes8ynsmqz9gxqrrsscqp79q2sqqqqqysgq68hc8rqzcmudru7punu6k8gq47qrqup8k05tkcjykg22svj43j3sa8w9v77uy4y5s5zazd2ne9e5hhfdw6jdcav6d6jrg2sry7yhrksq5mef2x
+~~~
+#### RTL
+~~~
+Go to Menu "Lightning"--> "Transactions" --> "Send Payment"
+~~~
+#### Thunderhub
+~~~
+Go to Menu "Home" --> "⚡Send"
+~~~
+#### LNbits
+~~~
+Click at "New Onchain Address"
+~~~
 
 ### Paying by Keysend
 
