@@ -10,6 +10,10 @@
 
 ## Paying by Invoice
 
+## Paying by Keysend
+
+## Paying by Offer (Only CLN)
+
 ## Mutual Closing Channel
 
 ## Force Closing Channel
