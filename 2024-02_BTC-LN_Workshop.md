@@ -80,7 +80,10 @@ Look at "Addresses"
 
 #### lncli
 ~~~
-lncli openchannel --connect 
+lncli openchannel --connect [Target Node IP]:[Target Node Port] [Target Node ID] [Amount in Sats]
+
+# Example:
+lncli openchannel --connect 203.132.94.196:9735 038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9 1000000
 ~~~
 #### RTL
 ~~~
@@ -101,8 +104,63 @@ Go to Menu "Manage : Node" --> "Channels" --> "OPEN CHANNEL"
 
 ### Opening Multi-Channel by Batching
 
+|No.|Node Name |Open Batch Channels to|Amount (Sats)     |
+|---|----------|----------------|------------------|
+| 1 | Node01   | Node09 & Node11| 1,000,000        |
+| 2 | Node02   | Node09 & Node11| 1,000,000        |
+| 3 | Node03   | Node09 & Node11| 1,000,000        |
+| 4 | Node04   | Node09 & Node11| 1,000,000        |
+| 5 | Node05   | Node09 & Node11| 1,000,000        |
+| 6 | Node06   | Node09 & Node11| 1,000,000        |
+| 7 | Node07   | Node09 & Node11| 1,000,000        |
+| 8 | Node08   | Node09 & Node11| 1,000,000        |
+
+#### lncli
+~~~
+lncli batchopenchannel --connect [Target Node IP]:[Target Node Port] [Target Node ID] [Amount in Sats]
+
+# Example:
+ lncli batchopenchannel --sat_per_vbyte=1 '[{
+    "node_pubkey": "",
+    "local_funding_amount": 1000000,
+  }, {
+    "node_pubkey": "03fedcba...",
+    "local_funding_amount": 1000000,
+  }]'
+
+~~~
+
+#### LNDg
+~~~
+Click at "Batching" --> "Batch Open Up To 10 Channels"
+~~~
+
+
 ### Opening Channel with Push Value
 
+#### lncli
+~~~
+lncli openchannel --connect [Target Node IP]:[Target Node Port] [Target Node ID] [Amount in Sats]
+
+# Example:
+ lncli batchopenchannel --sat_per_vbyte=1 '[{
+    "node_pubkey": "",
+    "local_funding_amount": 1000000,
+  }, {
+    "node_pubkey": "03fedcba...",
+    "local_funding_amount": 1000000,
+  }]'
+
+~~~
+#### Thunderhub
+~~~
+Go to Menu "Home" --> "Quick Action : Open" --> "Manual : Open" --> "Advanced" --> "Push Token to Partner"
+~~~
+
+#### LNbits
+~~~
+Go to Menu "Manage : Node" --> "Channels" --> "OPEN CHANNEL" --> "Advanced" --> "Push Amount"
+~~~
 ### Channel Backup (SCB)
 
 ## Basic Rebalancing
