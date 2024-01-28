@@ -211,7 +211,7 @@ Go to Menu "Manage : Node" --> "Channels" --> "OPEN CHANNEL" --> "Advanced" --> 
 
 ### Channel Backup (SCB)
 
-**Assignment #6 ให้ตรวจสอบ channel backup ด้านคำสั่ง**
+**Assignment #6 ให้ตรวจสอบ channel backup ด้วยคำสั่ง**
 
 Check channel backup file by command line.
 ~~~
@@ -267,6 +267,8 @@ Click at "Rebalancing"
 
 ### Paying by Bolt11 Invoice
 
+**Assignment #8 ให้ทำการจ่ายเงินด้วย Bolt11 Invoice จาก [link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4/edit#gid=0)**
+
 #### lncli
 ~~~
 # Pay invoice
@@ -289,6 +291,8 @@ Go to Menu "Wallet" --> "PASTE REQUEST"
 ~~~
 
 ### Paying by Keysend
+
+**Assignment #9 ให้ทำการจ่ายเงินด้วย Keysend ตารางด้านล่าง**
 
 |No.|Node Name |keysend to |Amount (Sats)     |
 |---|----------|-----------|------------------|
@@ -325,7 +329,10 @@ Go to Menu "Home" --> "⚡Send" --> "Is keysend to Yes"
 
 ## Closing Lightning Channel
 
-### Mutual Closing Channel
+### Mutual/Cooperative Closing Channel
+
+**Assignment #10 ให้ปิด channel ตารางด้านล่าง**
+
 |No.|Node Name |Close Channel to |
 |---|----------|-----------|
 | 1 | node01   | node09 |
@@ -363,6 +370,9 @@ Go to Menu "Channels" --> Action "Close Channel"
 Click at "Close a Channel"
 ~~~
 ### Force Closing Channel
+
+**Assignment #11 ให้ปิด channel แบบ forced ตารางด้านล่าง**
+
 |No.|Node Name |Force Close Channel to |
 |---|----------|-----------|
 | 1 | node01   | node10 |
