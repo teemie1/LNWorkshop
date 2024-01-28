@@ -1,4 +1,9 @@
 # Lightning Network Fundamental Workshop
+<img src="btc-ln-2024-link.png"  width="100%" height="100%"/>
+
+https://github.com/teemie1/LNWorkshop/blob/main/2024-02_BTC-LN_Workshop.md
+http://tinyurl.com/btc-ln-2024
+
 
 ## Introduction
 
