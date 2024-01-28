@@ -73,7 +73,7 @@ Click at "New Onchain Address"
 
 ### Gather Node URI for Peer Connection
 
-Assignment #2 ระหว่างรอรับ bitcoin ให้แต่ละกลุ่มนำ Node URL ที่เป็น clearnet บันทึกใน google sheet [link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4) ตามกลุ่มของแต่ละคน
+**Assignment #2 ระหว่างรอรับ bitcoin ให้แต่ละกลุ่มนำ Node URL ที่เป็น clearnet บันทึกใน google sheet [link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4) ตามกลุ่มของแต่ละคน**
 
 #### lncli
 ~~~
@@ -100,6 +100,8 @@ Look at "Addresses"
 ### Opening Single Channel 
 
 **Assignment #3 ให้เปิด channel กับ node ของกลุ่มอื่นตามตารางด้านล่าง**
+
+<img src="node-diagram-02.png"  width="40%" height="40%"/>
 
 |No.|Node Name |Open Channel to|Amount (Sats)     |
 |---|----------|---------------|------------------|
@@ -138,6 +140,10 @@ Go to Menu "Manage : Node" --> "Channels" --> "OPEN CHANNEL"
 
 ### Opening Multi-Channel by Batching
 
+**Assignment #4 ให้เปิด channel กับ node ของกลุ่มอื่นแบบ batching ตามตารางด้านล่าง**
+
+<img src="node-diagram-03.png"  width="40%" height="40%"/>
+
 |No.|Node Name |Open Batch Channels to|Amount (Sats)     |
 |---|----------|----------------|------------------|
 | 1 | node01   | node09 & node11| 500,000        |
@@ -172,6 +178,10 @@ Click at "Batching" --> "Batch Open Up To 10 Channels"
 
 ### Opening Channel with Push Value
 
+**Assignment #5 ให้เปิด channel กับ node ของกลุ่มอื่นแบบ push value ตามตารางด้านล่าง**
+
+<img src="node-diagram-04.png"  width="40%" height="40%"/>
+
 |No.|Node Name |Open Channel to|Amount (Sats)     |Push Amount (Sats)|
 |---|----------|---------------|------------------|--|
 | 1 | node01   | node10        | 400,000        |200,000|
@@ -189,18 +199,20 @@ lncli openchannel --connect [Target Node IP]:[Target Node Port] [Target Node ID]
 
 # Example:
  lncli openchannel --connect 146.190.111.127:9735 025e3a294d3b13e44a704fc3a825c977e8c46d214b696d51ddf1e55f5b193ced53 200000 100000
-
 ~~~
 #### Thunderhub
 ~~~
 Go to Menu "Home" --> "Quick Action : Open" --> "Manual : Open" --> "Advanced" --> "Push Token to Partner"
 ~~~
-
 #### LNbits
 ~~~
 Go to Menu "Manage : Node" --> "Channels" --> "OPEN CHANNEL" --> "Advanced" --> "Push Amount"
 ~~~
+
 ### Channel Backup (SCB)
+
+**Assignment #6 ให้ตรวจสอบ channel backup ด้านคำสั่ง**
+
 Check channel backup file by command line.
 ~~~
 # Find the backup file path
@@ -211,6 +223,8 @@ ls -l /data/backup/nodeXX/channel.backup
 ~~~
 
 ## Basic Rebalancing
+
+**Assignment #7 ให้ทำ rebalance channel ตามตารางด้านล่าง**
 
 |No.|Node Name |From Channel|To Channel|Rebalance Amount (Sats)     |
 |---|----------|------------|----|------------------|
