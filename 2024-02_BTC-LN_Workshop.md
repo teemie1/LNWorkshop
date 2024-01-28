@@ -39,8 +39,14 @@
  - LNbits เป็นเครื่องมือในการให้บริการทางการเงินบน node ของตัวเอง สามารถใช้งาน lightning wallet, LNURL, Lightning Address, Boltcard ฯลฯ โดยแยกผู้ใช้ออกเป็น 2 ระดับคือ superuser และผู้ใช้ทั่วไป
  - rebalance-lnd เป้น command line ที่ใช้สำหรับจัดการ rebalancce channel
 
+
+
 ### Creating Bitcoin Receive Address
 
+  ในสถานะเริ่มต้น node ที่แต่ละกลุ่มได้รับจะยังไม่มี channel ใด ๆ และยังไม่มี bitcoin อยู่เลย จึงต้องเริ่มต้นด้วยการ generate bitcoin address ขึ้นมาเพื่อทำการรับ bitcoin จากผู้สอน
+<img src="ืnode-diagram-01.png"  width="40%" height="40%"/>
+
+  
 #### lncli
 ~~~
 # Generate address
