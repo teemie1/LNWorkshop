@@ -4,7 +4,7 @@
 
 ### Workshop Architecture
 
-|No.|Node Name |Software|IP Address     |Domain Name        |admin password |RTL|Thunderhub|LNDg|LNbits Superuser|
+|No.|Node Name |SW|IP Address     |Domain Name        |admin password |RTL|Thunderhub|LNDg|LNbits Superuser|
 |---|----------|--------|---------------|-------------------|---------------|---|----------|---|-------|
 | 1 |  node01  |  LND   | 209.97.165.151 |node01.satsdays.com|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)|[Link](https://satsdays.com:4002/)| [Link](http://node01.satsdays.com:8889/) |[Link](https://node01.satsdays.com/admin?usr=9a899a2daac041108cf506002959da7c)|
 | 2 |  node02  |  LND   | 143.198.83.14 |node02.satsdays.com|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)|[Link](https://satsdays.com:4002/)| [Link](http://node02.satsdays.com:8889/) |[Link](https://node02.satsdays.com/admin?usr=416d6b5301aa4bf0a5ad3a6eb5db31ee)|
