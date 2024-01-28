@@ -73,7 +73,7 @@ Click at "New Onchain Address"
 
 ### Gather Node URI for Peer Connection
 
-**Assignment #2 ระหว่างรอรับ bitcoin ให้แต่ละกลุ่มนำ Node URL ที่เป็น clearnet บันทึกใน google sheet [link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4) ตามกลุ่มของแต่ละคน**
+**Assignment #2 ระหว่างรอรับ bitcoin ให้แต่ละกลุ่มนำ Node URI ที่เป็น clearnet บันทึกใน google sheet [link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4) ตามกลุ่มของแต่ละคน**
 
 #### lncli
 ~~~
