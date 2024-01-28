@@ -10,6 +10,8 @@
 ### Workshop Architecture
  - Workshop นี้จะมีการแบ่งกลุ่มผู้เรียนออกเป็นทั้งหมด 8 กลุ่ม โดยแต่ละกลุ่มได้มีหน้าที่ดูแล Lightning Node จำนวน 1 เครื่อง ดังนี้
 
+<img src="node-diagram-01.png"  width="40%" height="40%"/>
+
 |No.| Name |SW|IP Address     |Domain Name        |all_users_password |RTL|Thunder hub|LNDg|LNDg Password|LNbits Superuser|
 |---|----------|--------|---------------|-------------------|---------------|---|----------|-|---|-------|
 | 1 |  node01  |  LND   | 209.97.165.151 |node01.satsdays.com|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)|[Link](https://satsdays.com:4002/)| [Link](http://node01.satsdays.com:8889/) |[Link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4/edit#gid=1304207126)|[Link](https://node01.satsdays.com/admin?usr=9a899a2daac041108cf506002959da7c)|
@@ -44,8 +46,6 @@
 ### Creating Bitcoin Receive Address
 
   ในสถานะเริ่มต้น node ที่แต่ละกลุ่มได้รับจะยังไม่มี channel ใด ๆ และยังไม่มี bitcoin อยู่เลย จึงต้องเริ่มต้นด้วยการ generate bitcoin address ขึ้นมาเพื่อทำการรับ bitcoin จากผู้สอน
-  
-<img src="node-diagram-01.png"  width="40%" height="40%"/>
 
 **Assignment #1 ให้ generate bitcoin address แบบ p2wkh จาก node ที่ได้ และนำ address นั้นใส่ในแบบฟอร์ม [link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4/edit#gid=0) ในช่องตามกลุ่มของตนเอง**
   
