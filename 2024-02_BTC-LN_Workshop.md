@@ -184,14 +184,14 @@ Click at "Batching" --> "Batch Open Up To 10 Channels"
 
 |No.|Node Name |Open Channel to|Amount (Sats)     |Push Amount (Sats)|
 |---|----------|---------------|------------------|--|
-| 1 | node01   | node10        | 400,000        |200,000|
-| 2 | node02   | node10        | 400,000        |200,000|
-| 3 | node03   | node10        | 400,000        |200,000|
-| 4 | node04   | node10        | 400,000        |200,000|
-| 5 | node05   | node10        | 400,000        |200,000|
-| 6 | node06   | node10        | 400,000        |200,000|
-| 7 | node07   | node10        | 400,000        |200,000|
-| 8 | node08   | node10        | 400,000        |200,000|
+| 1 | node01   | node10        | 400,000        |400,000|
+| 2 | node02   | node10        | 400,000        |400,000|
+| 3 | node03   | node10        | 400,000        |400,000|
+| 4 | node04   | node10        | 400,000        |400,000|
+| 5 | node05   | node10        | 400,000        |400,000|
+| 6 | node06   | node10        | 400,000        |400,000|
+| 7 | node07   | node10        | 400,000        |400,000|
+| 8 | node08   | node10        | 400,000        |400,000|
 
 #### lncli (command)
 ~~~
