@@ -25,7 +25,7 @@
 |11 |  node11  |  CLN   |128.199.144.192|node09.satsdays.com|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)| -     | - | -  | -     |
 |12 |  node12  |  LND   |128.199.144.192|node09.satsdays.com|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)| -     | -  | -     |
 
-  สำหรับ node09 - node12 จะเป็นเครื่องส่วนกลางสำหรับใช้งานร่วมกันใน workshop แต่ละเครื่องจะมีเครื่องมือที่สำคัญดังนี้
+  สำหรับ node01 - node08 จะเป็นเครื่องของแต่ละกลุ่มสำหรับใช้งานร่วมกันใน workshop แต่ละเครื่องจะมีเครื่องมือที่สำคัญดังนี้
  - lncli เป็นคำสั่งหรือ command line เพื่อสั่งงานต่าง ๆ กับ node เราสามารถเข้าถึง command line ได้ด้วย [putty](https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe) หรือ [MobaXterm](https://download.mobatek.net/2232022120824733/MobaXterm_Portable_v22.3.zip)
    - user: admin
    - password: BTC-LN_W0rk$h0p  
@@ -39,7 +39,7 @@
  - LNbits เป็นเครื่องมือในการให้บริการทางการเงินบน node ของตัวเอง สามารถใช้งาน lightning wallet, LNURL, Lightning Address, Boltcard ฯลฯ โดยแยกผู้ใช้ออกเป็น 2 ระดับคือ superuser และผู้ใช้ทั่วไป
  - rebalance-lnd เป้น command line ที่ใช้สำหรับจัดการ rebalancce channel
 
-
+  ส่วน node09 - node12 เป็นเครื่องส่วนกลางเพื่อให้ workshop สามารถดำเนินการได้
 
 ### Creating Bitcoin Receive Address
 
