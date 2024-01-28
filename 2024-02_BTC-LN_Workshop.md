@@ -267,7 +267,7 @@ Click at "Rebalancing"
 
 ### Paying by Bolt11 Invoice
 
-**Assignment #8 ให้ทำการจ่ายเงินด้วย Bolt11 Invoice จาก [link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4/edit#gid=0)**
+**Assignment #8 ให้ทำการจ่ายเงินด้วย Bolt11 Invoice จาก [link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4/edit#gid=59734591)**
 
 #### lncli
 ~~~
