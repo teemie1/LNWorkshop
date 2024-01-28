@@ -1,9 +1,9 @@
-# Lightning Network Fundamental
+# Lightning Network Fundamental Workshop
 
 ## Introduction
 
 ### Workshop Architecture
-
+ - Workshop นี้จะมีการแบ่งกลุ่มผู้เรียนออกเป็นทั้งหมด 8 กลุ่ม โดยแต่ละกลุ่มได้มีหน้าที่ดูแล Lightning Node จำนวน 1 เครื่อง ดังนี้
 |No.| Name |SW|IP Address     |Domain Name        |all_users_password |RTL|Thunder hub|LNDg|LNbits Superuser|
 |---|----------|--------|---------------|-------------------|---------------|---|----------|---|-------|
 | 1 |  node01  |  LND   | 209.97.165.151 |node01.satsdays.com|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)|[Link](https://satsdays.com:4002/)| [Link](http://node01.satsdays.com:8889/) |[Link](https://node01.satsdays.com/admin?usr=9a899a2daac041108cf506002959da7c)|
@@ -19,6 +19,18 @@
 |11 |  node11  |  CLN   |128.199.144.192|node09.satsdays.com|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)| -     | -  | -     |
 |12 |  node12  |  LND   |128.199.144.192|node09.satsdays.com|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)| -     | -  | -     |
 
+  สำหรับ node09 - node12 จะเป็นเครื่องส่วนกลางสำหรับใช้งานร่วมกันใน workshop แต่ละเครื่องจะมีเครื่องมือที่สำตัญดังนี้
+ - lncli เป็นคำสั่งหรือ command line เพื่อสั่งงานต่าง ๆ กับ node เราสามารถเข้าถึง command line ได้ด้วย putty หรือ
+   - user: admin
+   - password: BTC-LN_W0rk$h0p  
+ - Right The Lightning หรือ RTL เป็นเครื่อง GUI สำหรับการบริหารจัดการ Lightning Node โดย RTL สามารถรองรับได้ทั้ง LND, Core Lightning และ Eclair
+   - password: BTC-LN_Work$h0p
+ - Thunderhub ทำหน้าที่ Node Management เช่นเดียวกับ RTL แต่รองรับได้เฉพาะ LND เท่านั้น
+   - password: BTC-LN_Work$h0p
+ - LNDg เป็นเครื่องมือระดับสูงสามารถใช้งานได้ทั้ง Node Management และ Auto Rebalance และรองรับเฉพาะ LND เท่านั้น
+   - user: lndg-admin
+   - password: เช็ดได้ที่ [link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4/edit#gid=0)
+ - LNbits เป็น  
 
 ### Creating Bitcoin Receive Address
 
