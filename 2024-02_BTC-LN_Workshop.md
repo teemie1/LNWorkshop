@@ -32,7 +32,7 @@
    - user: lndg-admin
    - password: เช็ดได้ที่ [link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4/edit#gid=0)
  - LNbits เป็นเครื่องมือในการให้บริการทางการเงินบน node ของตัวเอง สามารถใช้งาน lightning wallet, LNURL, Lightning Address, Boltcard ฯลฯ โดยแยกผู้ใช้ออกเป็น 2 ระดับคือ superuser และผู้ใช้ทั่วไป
-   - superuser [link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4/edit#gid=0) 
+ - rebalance-lnd เป้น command line ที่ใช้สำหรับจัดการ rebalancce channel
 
 ### Creating Bitcoin Receive Address
 
