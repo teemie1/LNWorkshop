@@ -19,6 +19,8 @@
 |11 |  node11  |  CLN   |128.199.144.192|node09.satsdays.com|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)| -     | -  | -     |
 |12 |  node12  |  LND   |128.199.144.192|node09.satsdays.com|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)| -     | -  | -     |
 
+
+
   สำหรับ node09 - node12 จะเป็นเครื่องส่วนกลางสำหรับใช้งานร่วมกันใน workshop แต่ละเครื่องจะมีเครื่องมือที่สำตัญดังนี้
  - lncli เป็นคำสั่งหรือ command line เพื่อสั่งงานต่าง ๆ กับ node เราสามารถเข้าถึง command line ได้ด้วย putty หรือ
    - user: admin
