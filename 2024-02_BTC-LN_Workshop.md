@@ -4,6 +4,8 @@
 
 ### Workshop Architecture
  - Workshop นี้จะมีการแบ่งกลุ่มผู้เรียนออกเป็นทั้งหมด 8 กลุ่ม โดยแต่ละกลุ่มได้มีหน้าที่ดูแล Lightning Node จำนวน 1 เครื่อง ดังนี้
+
+
 |No.| Name |SW|IP Address     |Domain Name        |all_users_password |RTL|Thunder hub|LNDg|LNbits Superuser|
 |---|----------|--------|---------------|-------------------|---------------|---|----------|---|-------|
 | 1 |  node01  |  LND   | 209.97.165.151 |node01.satsdays.com|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)|[Link](https://satsdays.com:4002/)| [Link](http://node01.satsdays.com:8889/) |[Link](https://node01.satsdays.com/admin?usr=9a899a2daac041108cf506002959da7c)|
