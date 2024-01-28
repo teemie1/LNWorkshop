@@ -5,7 +5,6 @@
 ### Workshop Architecture
  - Workshop นี้จะมีการแบ่งกลุ่มผู้เรียนออกเป็นทั้งหมด 8 กลุ่ม โดยแต่ละกลุ่มได้มีหน้าที่ดูแล Lightning Node จำนวน 1 เครื่อง ดังนี้
 
-
 |No.| Name |SW|IP Address     |Domain Name        |all_users_password |RTL|Thunder hub|LNDg|LNbits Superuser|
 |---|----------|--------|---------------|-------------------|---------------|---|----------|---|-------|
 | 1 |  node01  |  LND   | 209.97.165.151 |node01.satsdays.com|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)|[Link](https://satsdays.com:4002/)| [Link](http://node01.satsdays.com:8889/) |[Link](https://node01.satsdays.com/admin?usr=9a899a2daac041108cf506002959da7c)|
@@ -21,10 +20,8 @@
 |11 |  node11  |  CLN   |128.199.144.192|node09.satsdays.com|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)| -     | -  | -     |
 |12 |  node12  |  LND   |128.199.144.192|node09.satsdays.com|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)| -     | -  | -     |
 
-
-
-  สำหรับ node09 - node12 จะเป็นเครื่องส่วนกลางสำหรับใช้งานร่วมกันใน workshop แต่ละเครื่องจะมีเครื่องมือที่สำตัญดังนี้
- - lncli เป็นคำสั่งหรือ command line เพื่อสั่งงานต่าง ๆ กับ node เราสามารถเข้าถึง command line ได้ด้วย putty หรือ
+  สำหรับ node09 - node12 จะเป็นเครื่องส่วนกลางสำหรับใช้งานร่วมกันใน workshop แต่ละเครื่องจะมีเครื่องมือที่สำคัญดังนี้
+ - lncli เป็นคำสั่งหรือ command line เพื่อสั่งงานต่าง ๆ กับ node เราสามารถเข้าถึง command line ได้ด้วย [putty](https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe) หรือ [MobaXterm](https://download.mobatek.net/2232022120824733/MobaXterm_Portable_v22.3.zip)
    - user: admin
    - password: BTC-LN_W0rk$h0p  
  - Right The Lightning หรือ RTL เป็นเครื่อง GUI สำหรับการบริหารจัดการ Lightning Node โดย RTL สามารถรองรับได้ทั้ง LND, Core Lightning และ Eclair
@@ -34,7 +31,8 @@
  - LNDg เป็นเครื่องมือระดับสูงสามารถใช้งานได้ทั้ง Node Management และ Auto Rebalance และรองรับเฉพาะ LND เท่านั้น
    - user: lndg-admin
    - password: เช็ดได้ที่ [link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4/edit#gid=0)
- - LNbits เป็น  
+ - LNbits เป็นเครื่องมือในการให้บริการทางการเงินบน node ของตัวเอง สามารถใช้งาน lightning wallet, LNURL, Lightning Address, Boltcard ฯลฯ โดยแยกผู้ใช้ออกเป็น 2 ระดับคือ superuser และผู้ใช้ทั่วไป
+   - superuser [link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4/edit#gid=0) 
 
 ### Creating Bitcoin Receive Address
 
