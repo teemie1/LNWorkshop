@@ -44,8 +44,10 @@
 ### Creating Bitcoin Receive Address
 
   ในสถานะเริ่มต้น node ที่แต่ละกลุ่มได้รับจะยังไม่มี channel ใด ๆ และยังไม่มี bitcoin อยู่เลย จึงต้องเริ่มต้นด้วยการ generate bitcoin address ขึ้นมาเพื่อทำการรับ bitcoin จากผู้สอน
-<img src="ืnode-diagram-01.png"  width="40%" height="40%"/>
+  
+<img src="node-diagram-01.png"  width="40%" height="40%"/>
 
+**Assignament #1** จง generate bitcoin address แบบ p2wkh จาก node ที่ได้ และนำ address นั้นใส่ในแบบฟอร์ม [link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4/edit#gid=0) ในช่องตามกลุ่มของตนเอง
   
 #### lncli
 ~~~
