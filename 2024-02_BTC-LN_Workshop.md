@@ -47,7 +47,7 @@
   
 <img src="node-diagram-01.png"  width="40%" height="40%"/>
 
-Assignment #1 จง generate bitcoin address แบบ p2wkh จาก node ที่ได้ และนำ address นั้นใส่ในแบบฟอร์ม [link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4/edit#gid=0) ในช่องตามกลุ่มของตนเอง
+**Assignment #1 ให้ generate bitcoin address แบบ p2wkh จาก node ที่ได้ และนำ address นั้นใส่ในแบบฟอร์ม [link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4/edit#gid=0) ในช่องตามกลุ่มของตนเอง**
   
 #### lncli
 ~~~
@@ -72,6 +72,9 @@ Click at "New Onchain Address"
 เมื่อสร้าง address สำหรับการรับ testnet bitcoin เรียบร้อยแล้วให้นำไปใส่ใน google sheet ที่ [link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4) ตามกลุ่มของแต่ละคน
 
 ### Gather Node URI for Peer Connection
+
+Assignment #2 ระหว่างรอรับ bitcoin ให้แต่ละกลุ่มนำ Node URL ที่เป็น clearnet บันทึกใน google sheet [link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4) ตามกลุ่มของแต่ละคน
+
 #### lncli
 ~~~
 lncli getinfo
@@ -92,7 +95,11 @@ Look at "Addresses"
 
 ## Opening Lightning Channel
 
+  หลังจากได้รับ bitcoin testnet เรียบร้อยแล้ว เราจึงสามารถเปิด channel กับ node อื่น ๆ เพื่อสร้าง lightning network ขึ้นได้ โดยมีวิธีเปิด channel หลายแบบดังนี้
+  
 ### Opening Single Channel 
+
+**Assignment #3 ให้เปิด channel กับ node ของกลุ่มอื่นตามตารางด้านล่าง**
 
 |No.|Node Name |Open Channel to|Amount (Sats)     |
 |---|----------|---------------|------------------|
