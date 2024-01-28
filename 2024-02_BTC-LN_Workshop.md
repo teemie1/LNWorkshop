@@ -5,9 +5,9 @@
 ### Workshop Architecture
  - Workshop นี้จะมีการแบ่งกลุ่มผู้เรียนออกเป็นทั้งหมด 8 กลุ่ม โดยแต่ละกลุ่มได้มีหน้าที่ดูแล Lightning Node จำนวน 1 เครื่อง ดังนี้
 
-|No.| Name |SW|IP Address     |Domain Name        |all_users_password |RTL|Thunder hub|LNDg|LNbits Superuser|
-|---|----------|--------|---------------|-------------------|---------------|---|----------|---|-------|
-| 1 |  node01  |  LND   | 209.97.165.151 |node01.satsdays.com|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)|[Link](https://satsdays.com:4002/)| [Link](http://node01.satsdays.com:8889/) |[Link](https://node01.satsdays.com/admin?usr=9a899a2daac041108cf506002959da7c)|
+|No.| Name |SW|IP Address     |Domain Name        |all_users_password |RTL|Thunder hub|LNDg|LNDg Password|LNbits Superuser|
+|---|----------|--------|---------------|-------------------|---------------|---|----------|-|---|-------|
+| 1 |  node01  |  LND   | 209.97.165.151 |node01.satsdays.com|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)|[Link](https://satsdays.com:4002/)| [Link](http://node01.satsdays.com:8889/) |[Lin](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4/edit#gid=1304207126)k|[Link](https://node01.satsdays.com/admin?usr=9a899a2daac041108cf506002959da7c)|
 | 2 |  node02  |  LND   | 143.198.83.14 |node02.satsdays.com|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)|[Link](https://satsdays.com:4002/)| [Link](http://node02.satsdays.com:8889/) |[Link](https://node02.satsdays.com/admin?usr=416d6b5301aa4bf0a5ad3a6eb5db31ee)|
 | 3 |  node03  |  LND   | 159.65.11.69 |node03.satsdays.com|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)|[Link](https://satsdays.com:4002/)| [Link](http://node03.satsdays.com:8889/) |[Link](https://node03.satsdays.com/admin?usr=81aee542aaa247769858e4ae1b2ec700)|
 | 4 |  node04  |  LND   | 178.128.223.181 |node04.satsdays.com|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)|[Link](https://satsdays.com:4002/)| [Link](http://node04.satsdays.com:8889/) |[Link](https://node04.satsdays.com/admin?usr=51ee5e28929f41c39edc24af8033b3a1)|
