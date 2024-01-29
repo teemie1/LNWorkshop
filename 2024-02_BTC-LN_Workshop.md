@@ -407,3 +407,46 @@ lncli closechannel --force --chan_point 7be3bd753a31d7531b1819d89453b6e6d1b1c442
 
 
 ## 12. Recovering LND from Channel Backup
+
+  การกู้ระบบ LND Lightning Node จำเป็นต้องใช้ข้อมูล 2 ส่วนคือ 24 word seed phase และ channel.backup 
+ 
+ - 24 word seed phase ได้มาตอนสร้าง wallet ครั้งแรก โดย seed ของ lnd ไม่ใช่มาตรฐาน BIP39 แต่เป็น aezeed แม้จะหน้าตาเหมือนกันแต่ไม่สามารถใช้แทนกันได้
+ - channel backup เป็นไฟล์ที่ได้จาก lnd จะทำการสำรองข้อมูลโดยอัตโนมัติทุกครั้งที่มีการเปิดและปิด channel
+
+ สำหรับขั้นตอนการกู้ระบบ lnd ทำได้ดังนี้
+
+ - หลังจากติดตั้ง node ขึ้นมาใหม่ ในขั้นตอนการสร้าง wallet ของ lnd ให้เลือก 'y' ดังนี้
+~~~
+$ lncli create -multi_file=/data/backup/nodeXX/channel.backup
+
+WARNING: You are attempting to restore from a static channel backup (SCB) file.
+This action will CLOSE all currently open channels, and you will pay on-chain fees.
+
+Are you sure you want to recover funds from a static channel backup? (Enter y/n): y
+Static Channel Backup (SCB) recovery selected!
+Input wallet password:
+Confirm password:
+
+Do you have an existing cipher seed mnemonic or extended master root key you want to use?
+Enter 'y' to use an existing cipher seed mnemonic, 'x' to use an extended master root key
+or 'n' to create a new seed (Enter y/x/n): y
+
+Input your 24-word mnemonic separated by spaces: xxxx xxxxx
+
+...
+
+!!!YOU MUST WRITE DOWN THIS SEED TO BE ABLE TO RESTORE THE WALLET!!!
+
+---------------BEGIN LND CIPHER SEED---------------
+ 1. ability   2. noise   3. lift     4. document
+ 5. certain   6. month   7. shoot    8. perfect
+ 9. matrix   10. mango  11. excess  12. turkey
+13. river    14. pitch  15. fluid   16. rack
+17. drill    18. text   19. buddy   20. pool
+21. soul     22. fatal  23. ship    24. jelly
+---------------END LND CIPHER SEED-----------------
+
+!!!YOU MUST WRITE DOWN THIS SEED TO BE ABLE TO RESTORE THE WALLET!!!
+
+lnd successfully initialized!
+~~~
