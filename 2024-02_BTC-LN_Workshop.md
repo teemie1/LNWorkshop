@@ -43,7 +43,7 @@
 
   ส่วน node09 - node12 เป็นเครื่องส่วนกลางเพื่อให้ workshop สามารถดำเนินการได้
 
-### Creating Bitcoin Receive Address
+### 1. Creating Bitcoin Receive Address
 
   ในสถานะเริ่มต้น node ที่แต่ละกลุ่มได้รับจะยังไม่มี channel ใด ๆ และยังไม่มี bitcoin อยู่เลย จึงต้องเริ่มต้นด้วยการ generate bitcoin address ขึ้นมาเพื่อทำการรับ bitcoin จากผู้สอน
 
@@ -71,7 +71,7 @@ Click at "New Onchain Address"
 ~~~
 เมื่อสร้าง address สำหรับการรับ testnet bitcoin เรียบร้อยแล้วให้นำไปใส่ใน google sheet ที่ [link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4) ตามกลุ่มของแต่ละคน
 
-### Gather Node URI for Peer Connection
+### 2. Gather Node URI for Peer Connection
 
 **Assignment #2 ระหว่างรอรับ bitcoin ให้แต่ละกลุ่มนำ Node URI ที่เป็น clearnet บันทึกใน google sheet [link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4) ตามกลุ่มของแต่ละคน**
 
@@ -97,7 +97,7 @@ Look at "Addresses"
 
   หลังจากได้รับ bitcoin testnet เรียบร้อยแล้ว เราจึงสามารถเปิด channel กับ node อื่น ๆ เพื่อสร้าง lightning network ขึ้นได้ โดยมีวิธีเปิด channel หลายแบบดังนี้
   
-### Opening Single Channel 
+### 3. Opening Single Channel 
 
 **Assignment #3 ให้เปิด channel กับ node ของกลุ่มอื่นตามตารางด้านล่าง**
 
@@ -138,7 +138,7 @@ Go to  "Open a Channel"
 Go to Menu "Manage : Node" --> "Channels" --> "OPEN CHANNEL"
 ~~~
 
-### Opening Multi-Channel by Batching
+### 4. Opening Multi-Channel by Batching
 
 **Assignment #4 ให้เปิด channel กับ node ของกลุ่มอื่นแบบ batching ตามตารางด้านล่าง**
 
@@ -176,7 +176,7 @@ Click at "Batching" --> "Batch Open Up To 10 Channels"
 ~~~
 
 
-### Opening Channel with Push Value
+### 5. Opening Channel with Push Value
 
 **Assignment #5 ให้เปิด channel กับ node ของกลุ่มอื่นแบบ push value ตามตารางด้านล่าง**
 
@@ -209,7 +209,7 @@ Go to Menu "Home" --> "Quick Action : Open" --> "Manual : Open" --> "Advanced" -
 Go to Menu "Manage : Node" --> "Channels" --> "OPEN CHANNEL" --> "Advanced" --> "Push Amount"
 ~~~
 
-### Channel Backup (SCB)
+### 6. Channel Backup (SCB)
 
 **Assignment #6 ให้ตรวจสอบ channel backup ด้วยคำสั่ง**
 
@@ -222,7 +222,7 @@ grep backupfilepath /data/lnd/lnd.conf
 ls -l /data/backup/nodeXX/channel.backup
 ~~~
 
-## Basic Rebalancing
+## 7. Basic Rebalancing
 
 **Assignment #7 ให้ปรับ fee policy เป็น 0 เพื่อรองรับ rebalancing และให้ทำ rebalance channel ตามตารางด้านล่าง**
 
@@ -265,7 +265,7 @@ Click at "Rebalancing"
 
 ## Lightning Payment
 
-### Paying by Bolt11 Invoice
+### 8. Paying by Bolt11 Invoice
 
 **Assignment #8 ให้ทำการจ่ายเงินด้วย Bolt11 Invoice จาก [link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4/edit#gid=59734591)**
 
@@ -290,7 +290,7 @@ Go to Menu "Home" --> "⚡Send"
 Go to Menu "Wallet" --> "PASTE REQUEST"
 ~~~
 
-### Paying by Keysend
+### 9. Paying by Keysend
 
 **Assignment #9 ให้ทำการจ่ายเงินด้วย Keysend ตารางด้านล่าง**
 
@@ -329,7 +329,7 @@ Go to Menu "Home" --> "⚡Send" --> "Is keysend to Yes"
 
 ## Closing Lightning Channel
 
-### Mutual/Cooperative Closing Channel
+### 10. Mutual/Cooperative Closing Channel
 
 **Assignment #10 ให้ปิด channel ตารางด้านล่าง**
 
@@ -369,7 +369,7 @@ Go to Menu "Channels" --> Action "Close Channel"
 ~~~
 Click at "Close a Channel"
 ~~~
-### Force Closing Channel
+### 11. Force Closing Channel
 
 **Assignment #11 ให้ปิด channel แบบ forced ตารางด้านล่าง**
 
@@ -393,4 +393,4 @@ lncli closechannel --force --chan_point [CHANNEL_POINT]
 lncli closechannel --force --chan_point 7be3bd753a31d7531b1819d89453b6e6d1b1c442634d0282e1b4b7425ada0f8a:0
 ~~~
 
-## Recovering LND from Channel Backup
+## 12. Recovering LND from Channel Backup
