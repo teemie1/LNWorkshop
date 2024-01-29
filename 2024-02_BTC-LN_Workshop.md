@@ -12,7 +12,7 @@
 
 <img src="node-diagram-01.png"  width="40%" height="40%"/>
 
-|No.| Name |SW|IP Address     |Domain Name        |all_users_password |RTL|Thunder hub|LNDg|LNDg Password|LNbits Superuser|
+|No.| Name |SW|IP Address     |Domain Name        |all_users_password |RTL|Thunder hub|LNDg|Seed & LNDg Password|LNbits Superuser|
 |---|----------|--------|---------------|-------------------|---------------|---|----------|-|---|-------|
 | 1 |  node01  |  LND   | 209.97.165.151 |node01.satsdays.com|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)|[Link](https://satsdays.com:4002/)| [Link](http://node01.satsdays.com:8889/) |[Link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4/edit#gid=1304207126)|[Link](https://node01.satsdays.com/admin?usr=9a899a2daac041108cf506002959da7c)|
 | 2 |  node02  |  LND   | 143.198.83.14 |node02.satsdays.com|BTC-LN_W0rk$h0p|[Link](https://node09.satsdays.com:4001/rtl/login)|[Link](https://satsdays.com:4002/)| [Link](http://node02.satsdays.com:8889/) |[Link](https://docs.google.com/spreadsheets/d/1XJwQTcZhcGYICkqOXlmo-uinYKcIBEXP4U5_Yw2ejN4/edit#gid=116730586)|[Link](https://node02.satsdays.com/admin?usr=416d6b5301aa4bf0a5ad3a6eb5db31ee)|
@@ -224,7 +224,7 @@ ls -l /data/backup/nodeXX/channel.backup
 
 ## Basic Rebalancing
 
-**Assignment #7 ให้ทำ rebalance channel ตามตารางด้านล่าง**
+**Assignment #7 ให้ปรับ fee policy เป็น 0 เพื่อรองรับ rebalancing และให้ทำ rebalance channel ตามตารางด้านล่าง**
 
 |No.|Node Name |From Channel|To Channel|Rebalance Amount (Sats)     |
 |---|----------|------------|----|------------------|
