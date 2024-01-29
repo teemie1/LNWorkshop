@@ -415,7 +415,7 @@ lncli closechannel --force --chan_point 7be3bd753a31d7531b1819d89453b6e6d1b1c442
 
  สำหรับขั้นตอนการกู้ระบบ lnd ทำได้ดังนี้
 
- - หลังจากติดตั้ง node ขึ้นมาใหม่ ในขั้นตอนการสร้าง wallet ของ lnd ให้เลือก 'y' ดังนี้
+ - ใน workshop เราจะใช้ node12 สำหรับกู้ระบบ โดยในขั้นตอนการสร้าง wallet ของ lnd ให้เลือก 'y' ดังนี้
 ~~~
 $ lncli create -multi_file=/data/backup/nodeXX/channel.backup
 
