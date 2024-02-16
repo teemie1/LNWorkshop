@@ -231,6 +231,7 @@ ls -l /data/backup/nodeXX/channel.backup
 
 
 ### 7. Basic Rebalancing
+<img src="https://lh4.googleusercontent.com/6104rP5F6K9wSZd0pUHKeJBuW3rn6XuF9wL6zjBFE_7Ju0z0rKPY629nZ512qwIW_u6LIK9dkXGf7XKsv6v1n_K992pGu1Ln2vL62dXYTXTzvw4g81UOvbrSvs7wSKnSDhnwM_V0m86U0IJfUqqpmSU"  width="80%" height="80%"/>
 
 **Assignment #7 ให้ปรับ fee policy เป็น 0 เพื่อรองรับ rebalancing และให้ทำ rebalance channel ตามตารางด้านล่าง**
 
