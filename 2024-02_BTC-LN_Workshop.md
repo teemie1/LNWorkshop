@@ -102,7 +102,7 @@ Look at "Addresses"
   
 ### 3. Opening Single Channel 
 
-<img src="[node-diagram-02.png](https://lh7-us.googleusercontent.com/_aRPj9jtRxNnOrGjrLdwmwN7OpXUi5NX6O0pc1vIvgkTvyu2mISKH5YxekqCIR8u3cjxEk_FxbbVb7EQ8JHF7FFI7L1vzDPsniUW2qVC7Q8uKUVzAuJ_q1yskTnE07mW6PQEe6up2mpsS1ofc7KFEwo)"  width="40%" height="40%"/>
+<img src="https://lh7-us.googleusercontent.com/_aRPj9jtRxNnOrGjrLdwmwN7OpXUi5NX6O0pc1vIvgkTvyu2mISKH5YxekqCIR8u3cjxEk_FxbbVb7EQ8JHF7FFI7L1vzDPsniUW2qVC7Q8uKUVzAuJ_q1yskTnE07mW6PQEe6up2mpsS1ofc7KFEwo"  width="60%" height="60%"/>
 
 **Assignment #3 ให้เปิด channel กับ node ของกลุ่มอื่นตามตารางด้านล่าง**
 
